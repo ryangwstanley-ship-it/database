@@ -2,33 +2,34 @@ const arabicMasterDatabase = [
   // ══════════════════════════════════════════════════════════════════════
   // LIST 1 (27 words)
   // ══════════════════════════════════════════════════════════════════════
-  { list: 1, word: "قَبْلَ", meaning: "before", partOfSpeech: "particle", type: "adverb" },
+  const arabicMasterDatabase = [
+  { list: 1, word: "قَبْلَ", meaning: "before", partOfSpeech: "particle", type: "adverb", connectionStyle: "disconnected" },
   { list: 1, word: "أَيَّامٌ", meaning: "days", partOfSpeech: "noun", gender: "m", plurality: "plur", isHuman: false },
   { list: 1, word: "كَثِيرٌ", meaning: "many", partOfSpeech: "adjective", gender: "m", plurality: "sing" },
-  { list: 1, word: "جِدًّا", meaning: "very", partOfSpeech: "particle", type: "adverb" },
-  { list: 1, word: "كَانَ", meaning: "was", partOfSpeech: "verb", aspect: "past", form: 1 },
-  { list: 1, word: "هُنَاكَ", meaning: "there", partOfSpeech: "particle", type: "demonstrative_locative" },
+  { list: 1, word: "جِدًّا", meaning: "very", partOfSpeech: "particle", type: "adverb", connectionStyle: "disconnected" },
+  { list: 1, word: "كَانَ", meaning: "was", partOfSpeech: "verb", aspect: "past", form: 1, transitivity: "intransitive" },
+  { list: 1, word: "هُنَاكَ", meaning: "there", partOfSpeech: "particle", type: "demonstrative_locative", connectionStyle: "disconnected" },
   { list: 1, word: "رَجُلٌ", meaning: "man", partOfSpeech: "noun", gender: "m", plurality: "sing", isHuman: true },
-  { list: 1, word: "وَ", meaning: "and", partOfSpeech: "particle", type: "conjunction" },
+  { list: 1, word: "وَ", meaning: "and", partOfSpeech: "particle", type: "conjunction", connectionStyle: "connected" },
   { list: 1, word: "هَذَا", meaning: "this (m)", partOfSpeech: "pronoun", type: "demonstrative", gender: "m", plurality: "sing" },
   { list: 1, word: "سَكَنَ", meaning: "lived/resided", partOfSpeech: "verb", aspect: "past", form: 1, transitivity: "intransitive" },
-  { list: 1, word: "فِي", meaning: "in", partOfSpeech: "particle", type: "preposition" },
+  { list: 1, word: "فِي", meaning: "in", partOfSpeech: "particle", type: "preposition", connectionStyle: "disconnected" },
   { list: 1, word: "قَرْيَةٌ", meaning: "village", partOfSpeech: "noun", gender: "f", plurality: "sing", isHuman: false },
   { list: 1, word: "اِسْمٌ", meaning: "name", partOfSpeech: "noun", gender: "m", plurality: "sing", isHuman: false },
   { list: 1, word: "مُشْرِكٌ", meaning: "polytheist", partOfSpeech: "noun", gender: "m", plurality: "sing", isHuman: true },
-  { list: 1, word: "مَعَ", meaning: "with", partOfSpeech: "particle", type: "preposition" },
+  { list: 1, word: "مَعَ", meaning: "with", partOfSpeech: "particle", type: "preposition", connectionStyle: "disconnected" },
   { list: 1, word: "نَاسٌ", meaning: "people", partOfSpeech: "noun", gender: "m", plurality: "plur", isHuman: true },
   { list: 1, word: "هَؤُلَاءِ", meaning: "these (people)", partOfSpeech: "pronoun", type: "demonstrative", gender: "x", plurality: "plur" },
-  { list: 1, word: "أَيْضًا", meaning: "also", partOfSpeech: "particle", type: "adverb" },
+  { list: 1, word: "أَيْضًا", meaning: "also", partOfSpeech: "particle", type: "adverb", connectionStyle: "disconnected" },
   { list: 1, word: "هَذِهِ", meaning: "this (f)", partOfSpeech: "pronoun", type: "demonstrative", gender: "f", plurality: "sing" },
   { list: 1, word: "صَنَمٌ", meaning: "idol", partOfSpeech: "noun", gender: "m", plurality: "sing", isHuman: false },
   { list: 1, word: "عَبَدَ", meaning: "worshipped", partOfSpeech: "verb", aspect: "past", form: 1, transitivity: "transitive" },
   { list: 1, word: "سَجَدَ", meaning: "prostrated", partOfSpeech: "verb", aspect: "past", form: 1, transitivity: "intransitive" },
-  { list: 1, word: "لِ", meaning: "for/to", partOfSpeech: "particle", type: "preposition" },
+  { list: 1, word: "لِ", meaning: "for/to", partOfSpeech: "particle", type: "preposition", connectionStyle: "connected" },
   { list: 1, word: "هَا", meaning: "it/her", partOfSpeech: "pronoun", type: "suffix_object" },
-  { list: 1, word: "هُنَا", meaning: "here", partOfSpeech: "particle", type: "demonstrative_locative" },
-  { list: 1, word: "لِمَاذَا", meaning: "why", partOfSpeech: "particle", type: "interrogative" },
-  { list: 1, word: "عِبَادَةٌ", meaning: "worship", partOfSpeech: "noun", gender: "f", plurality: "sing", isHuman: false },
+  { list: 1, word: "هُنَا", meaning: "here", partOfSpeech: "particle", type: "demonstrative_locative", connectionStyle: "disconnected" },
+  { list: 1, word: "لِمَاذَا", meaning: "why", partOfSpeech: "particle", type: "interrogative", connectionStyle: "disconnected" },
+  { list: 1, word: "عِبَادَةٌ", meaning: "worship", partOfSpeech: "noun", gender: "f", plurality: "sing", isHuman: false }
 
   // ══════════════════════════════════════════════════════════════════════
   // LIST 2 (27 words)
