@@ -554,3 +554,143 @@ const arabicMasterDatabase = [
   { list: 16, word: "دَرَسَ", meaning: "studied", partOfSpeech: "verb", aspect: "past", form: 1, transitivity: "transitive" },
   { list: 16, word: "قَادِمٌ", meaning: "coming/next", partOfSpeech: "adjective", gender: "m", plurality: "sing" }
 ];
+
+
+
+
+
+
+
+// ══════════════════════════════════════════════════════════════════════
+// MASTER GRAMMAR ENGINE BLUEPRINTS (The AI must strictly obey this data)
+// ══════════════════════════════════════════════════════════════════════
+
+const arabicGrammarEngine = {
+
+  // BLOCK 1: FUNCTIONAL REGISTRIES (Categories that activate phrase rules)
+  functional_categories: {
+    jarr_particles: ["فِي", "لِ", "بِ", "مِنْ", "عَلَى", "إِلَى", "عَنْ", "كَ", "حَتَّى", "مُنْذُ"", """], 
+    zarf_particles: ["قَبْلَ", "بَعْدَ", "عِنْدَ", "تَحْتَ", "فَوْقَ", "خَلْفَ", "أَمَامَ", "وَرَاءَ", "بَيْنَ", "مَعَ", "حَوْلَ", "دُونَ"]
+  },
+
+  // BLOCK 2: PHRASE STRUCTURE CHUNKS (Blueprints for grouping words together)
+  phrase_structures: [
+    {
+      id: "shibhu_jumlah_jar_majrur",
+      description: "Prepositional Phrase Chunking Principle",
+      sequence: [
+        { role: "trigger", match: "jarr_particles" },
+        { role: "majroor_noun", expected_case: "majroor" }
+      ]
+    },
+    {
+      id: "shibhu_jumlah_zarf",
+      description: "Adverbial Phrase Chunking Principle",
+      sequence: [
+        { role: "trigger", match: "zarf_particles" },
+        { role: "mudhaf_ilaih_noun", expected_case: "majroor" }
+      ]
+    }
+  ],
+
+  // BLOCK 3: CASE INFLECTION RULES (Mathematical settings for stripping and replacing endings)
+  inflection_rules: {
+    // Regex tool to instantly wipe out any existing tanween or harakah on the end of a word
+    strip_current_ending: /[\u064C\u064D\u064E\u064F\u0650\u0651\u0652]$/, 
+    
+    cases: {
+      marfoo:   { remove_suffix: true, add_suffix: "ٌ" }, // Normal Nominative Tanween Damma
+      mansoob:  { remove_suffix: true, add_suffix: "ً" }, // Accusative Tanween Fatha
+      majroor:  { remove_suffix: true, add_suffix: "ٍ" }  // Genitive Tanween Kasrah
+    },
+    definite: {
+      prefix: "ال",
+      strip_tanween: true // Law: If definite prefix is present, replace Tanween suffix with a single harakah
+    }
+  },
+
+  // BLOCK 4: COMPLETE INDEPENDENT PERSONAL PRONOUNS (الضمائر المنفصلة)
+  // Used strictly as separate words for sentence subjects (e.g., "He", "They")
+  pronouns_independent: {
+    singular: {
+      3rd_person: { m: "هُوَ", f: "هِيَ" },       // He / She
+      2nd_person: { m: "أَنْتَ", f: "أَنْتِ" },   // You (m) / You (f)
+      1st_person: { common: "أَنَا" }             // I
+    },
+    dual: {
+      3rd_person: { m: "هُمَا", f: "هُمَا" },     // They two (m) / They two (f)
+      2nd_person: { m: "أَنْتُمَا", f: "أَنْتُمَا" }, // You two (m) / You two (f)
+      1st_person: { common: "نَحْنُ" }           // We two (Dual shares plural form in 1st person)
+    },
+    plural: {
+      3rd_person: { m: "هُمْ", f: "هُنَّ" },       // They (m plural) / They (f plural)
+      2nd_person: { m: "أَنْتُمْ", f: "أَنْتُنَّ" }, // You all (m plural) / You all (f plural)
+      1st_person: { common: "نَحْنُ" }           // We (plural)
+    }
+  },
+
+  // BLOCK 5: COMPLETE ATTACHED PRONOUN SUFFIXES (الضمائر المتصلة)
+  // Essential for Shibhu Jumlah! These bind directly onto prepositions or nouns (e.g., فِي + هُ = فِيهِ)
+  pronouns_attached: {
+    singular: {
+      3rd_person: { m: "هُ", f: "هَا" },         // Him / Her
+      2nd_person: { m: "كَ", f: "كِ" },          // Your (m) / Your (f)
+      1st_person: { common: "ي" }                // Me / My
+    },
+    dual: {
+      3rd_person: { m: "هُمَا", f: "هُمَا" },     // Them two (m) / Them two (f)
+      2nd_person: { m: "كُمَا", f: "كُمَا" },     // Your (m dual) / Your (f dual)
+      1st_person: { common: "نَا" }              // Us two (Shares plural suffix)
+    },
+    plural: {
+      3rd_person: { m: "هُمْ", f: "هُنَّ" },       // Them (m plural) / Them (f plural)
+      2nd_person: { m: "كُمْ", f: "كُنَّ" },       // Your (m plural) / Your (f plural)
+      1st_person: { common: "نَا" }              // Us / Our (plural)
+    }
+  },
+
+  // BLOCK 6: EXTENDED STRUCTURAL PARTICLES
+  // Extra registries to help your engine process connectors, interrogatives, and negatives flawlessly
+  structural_particles: {
+    conjunctions_atf: [
+      { word: "وَ", meaning: "and" },
+      { word: "فَ", meaning: "and then / so" },
+      { word: "ثُمَّ", meaning: "then (with delay)" },
+      { word: "أَوْ", meaning: "or" },
+      { word: "أَمْ", meaning: "or (used in questions)" },
+      { word: "بَلْ", meaning: "but / rather" },
+      { word: "لَكِنْ", meaning: "however" }
+    ],
+    interrogatives_istifham: [
+      { word: "مَنْ", meaning: "who" },
+      { word: "مَا", meaning: "what" },
+      { word: "مَاذَا", meaning: "what" },
+      { word: "أَيْنَ", meaning: "where" },
+      { word: "مَتَى", meaning: "when" },
+      { word: "كَيْفَ", meaning: "how" },
+      { word: "كمْ", meaning: "how many / how much" },
+      { word: "لِمَاذَا", meaning: "why" },
+      { word: "هَلْ", meaning: "is / am / are / do / did" },
+      { word: "أَ", meaning: "is / do (prefix question)" }
+    ],
+    negatives_nafi: [
+      { word: "لا", meaning: "no / not" },
+      { word: "مَا", meaning: "not (past tense negation)" },
+      { word: "لَمْ", meaning: "did not" },
+      { word: "لَنْ", meaning: "will not" },
+      { word: "لَيْسَ", meaning: "is not / are not" }
+    ],
+    demonstratives_isharah: {
+      near: {
+        singular: { m: "هَذَا", f: "هَذِهِ" },   // This
+        dual: { m: "هَذَانِ", f: "هَتَانِ" },   // These two
+        plural: { common: "هَؤُلَاءِ" }          // These
+      },
+      far: {
+        singular: { m: "ذَلِكَ", f: "تِلْكَ" },   // That
+        dual: { m: "ذَانِكَ", f: "تَانِكَ" },   // That pair
+        plural: { common: "أُولَئِكَ" }          // Those
+      }
+    }
+  }
+};
