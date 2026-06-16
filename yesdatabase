@@ -554,6 +554,50 @@ const arabicMasterDatabase = [
   { list: 16, word: "قَادِمٌ",    meaning: "coming/next",      partOfSpeech: "adjective",  gender: "m", plurality: "sing" },
 ];
 
+
+
+
+
+
+
+
+
+
+
+// Database now utilizes a specific grouping for proper nouns
+const PROPER_NOUNS = [
+  { word: "إِبْرَاهِيمُ", meaning: "Ibrahim", properNoun: true, isHuman: true },
+  { word: "إِسْمَاعِيلُ", meaning: "Ismail", properNoun: true, isHuman: true },
+  { word: "إِسْحَاقُ",   meaning: "Ishaq", properNoun: true, isHuman: true },
+  { word: "يَعْقُوبُ",   meaning: "Yaquub", properNoun: true, isHuman: true },
+  { word: "سَارَةُ",     meaning: "Sarah", properNoun: true, isHuman: true },
+  { word: "هَاجَرُ",     meaning: "Hajar", properNoun: true, isHuman: true },
+  { word: "مِصْرُ",      meaning: "Egypt", properNoun: true },
+  { word: "كَنْعَانُ",   meaning: "Canaan", properNoun: true },
+  { word: "بَابِلُ",     meaning: "Babylon", properNoun: true },
+  { word: "مَكَّةُ",     meaning: "Makkah", properNoun: true },
+  { word: "الشَّامُ",    meaning: "Ash-Sham", properNoun: true }
+];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const arabicGrammarEngine = {
 
   functional_categories: {
