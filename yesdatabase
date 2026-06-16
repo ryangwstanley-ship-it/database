@@ -1,4 +1,4 @@
-const arabicMasterDatabase = [
+[
   // ══════════════════════════════════════════════════════════════════════
   // LIST 1 (29 entries)
   // ══════════════════════════════════════════════════════════════════════
@@ -552,7 +552,7 @@ const arabicMasterDatabase = [
   { list: 16, word: "قَرَأَ",     meaning: "read",             partOfSpeech: "verb",       aspect: "past", form: 1,         transitivity: "transitive" },
   { list: 16, word: "دَرَسَ",     meaning: "studied",          partOfSpeech: "verb",       aspect: "past", form: 1,         transitivity: "transitive" },
   { list: 16, word: "قَادِمٌ",    meaning: "coming/next",      partOfSpeech: "adjective",  gender: "m", plurality: "sing" },
-];
+]
 
 
 
@@ -728,3 +728,4 @@ const arabicGrammarEngine = {
     }
   }
 };
+
