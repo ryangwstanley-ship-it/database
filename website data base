@@ -193,7 +193,7 @@ export const DEFAULT_LESSONS = {
       { ar: 'أَكْبَر', en: 'greater/greatest' },
       { ar: 'وَعَدَ / وَعْد', en: 'promised / promise' },
     ]
-  }
+  },
 7: {
   name: 'Lesson 1 (Possessive Pronouns)',
   cards: [
