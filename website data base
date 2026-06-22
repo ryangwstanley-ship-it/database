@@ -578,7 +578,7 @@ export const DEMONSTRATIVE_QUESTIONS = [
   { type: 'tf', sentence: 'هَؤُلَاءِ الأَسْمَاءُ', answer: false },
   { type: 'tf', sentence: 'هَذَا الأَصْنَامُ', answer: false },
   { type: 'tf', sentence: 'هَؤُلَاءِ الْعِبَادَاتُ', answer: false },
-
+];
 
 export const ADJECTIVE_AGREEMENT_QUESTIONS = [
   { sentence: "يَوْمٌ كَبِيرٌ", answer: true },
@@ -643,5 +643,4 @@ export const ADJECTIVE_AGREEMENT_QUESTIONS = [
   { sentence: "مُؤْمِنُون كَثِيرَةٌ", answer: false }
 ];
 
-];
 
