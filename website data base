@@ -1,4 +1,8 @@
 export const DEFAULT_LESSONS = {
+  0: {
+    name: 'Advanced students',
+    cards: []
+  },
   1: {
     name: 'Lesson 1',
     cards: [
