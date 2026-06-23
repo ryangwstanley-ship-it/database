@@ -4,7 +4,7 @@ export const DEFAULT_LESSONS = {
     cards: []
   },
   1: {
-    name: 'Lesson 1',
+    name: 'Lesson 1 Vocab',
     cards: [
       { ar: 'فِي', en: 'in' },
       { ar: 'مَعَ', en: 'with' },
@@ -198,7 +198,7 @@ export const DEFAULT_LESSONS = {
       { ar: 'وَعَدَ / وَعْد', en: 'promised / promise' },
     ]
   },
-7: {
+'1b': {
   name: 'Lesson 1 (Possessive Pronouns)',
   cards: [
     { ar: 'يَوْمُه', en: 'day (his)' },
