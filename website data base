@@ -642,5 +642,27 @@ export const ADJECTIVE_AGREEMENT_QUESTIONS = [
   { sentence: "مُؤْمِنُون كَبِيرَةٌ", answer: false },
   { sentence: "مُؤْمِنُون كَثِيرَةٌ", answer: false }
 ];
+export const PLURAL_QUESTIONS = [
+  { singular: "وَلَد", plural: "أَوْلَاد" },
+  { singular: "قَلَم", plural: "أَقْلَام" },
+  { singular: "بَاب", plural: "أَبْوَاب" },
+  { singular: "سُوق", plural: "أَسْوَاق" },
+  { singular: "نَهْر", plural: "أَنْهَار" },
+  { singular: "رَجُل", plural: "رِجَال" },
+  { singular: "بَحْر", plural: "بِحَار" },
+  { singular: "كَلْب", plural: "كِلَاب" },
+  { singular: "عِلْم", plural: "عُلُوم" },
+  { singular: "شَهْر", plural: "شُهُور" },
+  { singular: "عَيْن", plural: "عُيُون" },
+  { singular: "سَيْف", plural: "سُيُوف" },
+  { singular: "قَلْب", plural: "قُلُوب" },
+  { singular: "نَجْم", plural: "نُجُوم" },
+  { singular: "جَبَل", plural: "جِبَال" },
+  { singular: "بَيْت", plural: "أَبْيَات" },
+  { singular: "فَم", plural: "أَفْوَاه" },
+  { singular: "بَيْت", plural: "بُيُوت" },
+  { singular: "طَرِيق", plural: "طُرُقَات" },
+  { singular: "صَدِيق", plural: "أَصْدِقَاء" }
+];
 
 
