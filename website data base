@@ -665,4 +665,65 @@ export const PLURAL_QUESTIONS = [
   { singular: "صَدِيق", plural: "أَصْدِقَاء" }
 ];
 
-
+export const FEMININE_QUESTIONS = [
+  { words: [
+    { text: "نَهْر", feminine: false },
+    { text: "أَنْهَار", feminine: true },
+    { text: "بَاب", feminine: false },
+    { text: "أَبْوَاب", feminine: true }
+  ]},
+  { words: [
+    { text: "بَيْت", feminine: false },
+    { text: "بُيُوت", feminine: true },
+    { text: "قَلَم", feminine: false },
+    { text: "أَقْلَام", feminine: true }
+  ]},
+  { words: [
+    { text: "جَبَل", feminine: false },
+    { text: "جِبَال", feminine: true },
+    { text: "سُوق", feminine: false },
+    { text: "أَسْوَاق", feminine: true }
+  ]},
+  { words: [
+    { text: "نَجْم", feminine: false },
+    { text: "نُجُوم", feminine: true },
+    { text: "دَرْس", feminine: false },
+    { text: "دُرُوس", feminine: true }
+  ]},
+  { words: [
+    { text: "بَحْر", feminine: false },
+    { text: "بِحَار", feminine: true },
+    { text: "كَلْب", feminine: false },
+    { text: "كِلَاب", feminine: true }
+  ]},
+  { words: [
+    { text: "مَدْرَسَة", feminine: true },
+    { text: "مُعَلِّمُونَ", feminine: false },
+    { text: "طَالِبَة", feminine: true },
+    { text: "صَابِرُونَ", feminine: false }
+  ]},
+  { words: [
+    { text: "مُعَلِّمَة", feminine: true },
+    { text: "مُؤْمِنُونَ", feminine: false },
+    { text: "غُرْفَة", feminine: true },
+    { text: "مُسْلِمُونَ", feminine: false }
+  ]},
+  { words: [
+    { text: "سَيَّارَة", feminine: true },
+    { text: "عَالِمُونَ", feminine: false },
+    { text: "مُعَلِّمَات", feminine: true },
+    { text: "مُعَلِّمِينَ", feminine: false }
+  ]},
+  { words: [
+    { text: "طَالِبَات", feminine: true },
+    { text: "صَابِرِينَ", feminine: false },
+    { text: "مُؤْمِنَات", feminine: true },
+    { text: "مُؤْمِنِينَ", feminine: false }
+  ]},
+  { words: [
+    { text: "مُسْلِمَات", feminine: true },
+    { text: "مُسْلِمِينَ", feminine: false },
+    { text: "عَالِمَات", feminine: true },
+    { text: "عَالِمِينَ", feminine: false }
+  ]}
+];
