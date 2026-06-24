@@ -738,3 +738,17 @@ export const FEMININE_QUESTIONS = [
     { text: "عَالِمِينَ", feminine: false }
   ]}
 ];
+
+export const SUFFIX_TRANSLATION_QUESTIONS = [
+  { en: "the men, their idols are many", ar: "الرجال أصنامهم كثيرة" },
+  { en: "the people, their village is big", ar: "الناس قريتهم كبيرة" },
+  { en: "the idols, their names are many", ar: "الأصنام أسماؤها كثيرة" },
+  { en: "the days, their worship is a lot", ar: "الأيام عبادتها كثيرة" },
+  { en: "the men, their names are many", ar: "الرجال أسماؤهم كثيرة" },
+  { en: "the villages, their idols are many", ar: "القرى أصنامها كثيرة" },
+  { en: "the people, their idols are many", ar: "الناس أصنامهم كثيرة" },
+  { en: "the names, their worship is a lot", ar: "الأسماء عبادتها كثيرة" },
+  { en: "the man, his idols are many", ar: "الرجل أصنامه كثيرة" },
+  { en: "the worship, its names are many", ar: "العبادة أسماؤها كثيرة" },
+  { en: "the village, its idols are many", ar: "القرية أصنامها كثيرة" }
+];
