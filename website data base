@@ -752,3 +752,17 @@ export const SUFFIX_TRANSLATION_QUESTIONS = [
   { en: "the worship, its names are many", ar: "العبادة أسماؤها كثيرة" },
   { en: "the village, its idols are many", ar: "القرية أصنامها كثيرة" }
 ];
+
+export const DEMO_TRANSLATION_QUESTIONS = [
+  { en: "this man", ar: "هذا الرجل" },
+  { en: "this idol", ar: "هذا الصنم" },
+  { en: "this polytheist", ar: "هذا المشرك" },
+  { en: "this village", ar: "هذه القرية" },
+  { en: "this worship", ar: "هذه العبادة" },
+  { en: "these idols", ar: "هذه الأصنام" },
+  { en: "these days", ar: "هذه الأيام" },
+  { en: "these people", ar: "هؤلاء الناس" },
+  { en: "these men", ar: "هؤلاء الرجال" },
+  { en: "these Muslim women", ar: "هؤلاء المسلمات" },
+  { en: "these polytheist women", ar: "هؤلاء المشركات" }
+];
