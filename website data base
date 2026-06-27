@@ -56,8 +56,10 @@ export const DEFAULT_LESSONS = {
       { ar: 'رَبّ', en: 'Lord' },
       { ar: 'لَمْ', en: 'did not' },
       { ar: 'لَنْ', en: 'will not' },
-      { ar: 'تَرَكَ', en: 'left/abandoned' },
+     { ar: 'تَرَكَ', en: 'left/abandoned' },
       { ar: 'شِرْك', en: 'polytheism/shirk' },
+      { ar: 'ذَلِكَ', en: 'that (m)' },
+      { ar: 'كُلّ', en: 'every' },
     ]
   },
   3: {
