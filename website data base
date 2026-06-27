@@ -469,7 +469,7 @@ export const SUFFIX_PRONOUN_QUESTIONS = [
   { sentence: "الرَّجُلُ صَوْتُهُ عَالٍ", answer: true },
   { sentence: "اليَوْمُ جَوُّهُ بَارِدٌ", answer: true },
   { sentence: "الصَّنَمُ شَكْلُهُ غَرِيبٌ", answer: true },
-  // feminine singular → هَا
+  //  singular → هَا
   { sentence: "القَرْيَةُ جَوُّهَا حَارٌّ", answer: true },
   { sentence: "العِبَادَةُ وَقْتُهَا طَوِيلٌ", answer: true },
   { sentence: "القَرْيَةُ طَرِيقُهَا طَوِيلٌ", answer: true },
@@ -735,6 +735,31 @@ export const FEMININE_QUESTIONS = [
     { text: "عَالِمَات", feminine: true },
     { text: "عَالِمِينَ", feminine: false }
   ]}
+];
+
+export const PLURAL_TYPE_QUESTIONS = [
+  // Irregular & Non-human (10)
+  { ar: "أَقْلَام", en: "pens", regular: false, human: false },
+  { ar: "أَبْوَاب", en: "doors", regular: false, human: false },
+  { ar: "أَنْهَار", en: "rivers", regular: false, human: false },
+  { ar: "بِحَار", en: "seas", regular: false, human: false },
+  { ar: "كِلَاب", en: "dogs", regular: false, human: false },
+  { ar: "عُلُوم", en: "sciences", regular: false, human: false },
+  { ar: "شُهُور", en: "months", regular: false, human: false },
+  { ar: "عُيُون", en: "eyes", regular: false, human: false },
+  { ar: "سُيُوف", en: "swords", regular: false, human: false },
+  { ar: "قُلُوب", en: "hearts", regular: false, human: false },
+  // Regular & Human (10) — 4 aat, 3 uun, 3 een
+  { ar: "مُسْلِمَات", en: "Muslim women", regular: true, human: true },
+  { ar: "مُؤْمِنَات", en: "believing women", regular: true, human: true },
+  { ar: "طَالِبَات", en: "female students", regular: true, human: true },
+  { ar: "مُعَلِّمَات", en: "female teachers", regular: true, human: true },
+  { ar: "مُسْلِمُونَ", en: "Muslim men", regular: true, human: true },
+  { ar: "مُؤْمِنُونَ", en: "believing men", regular: true, human: true },
+  { ar: "عَالِمُونَ", en: "scholars", regular: true, human: true },
+  { ar: "مُسْلِمِينَ", en: "Muslim men", regular: true, human: true },
+  { ar: "مُؤْمِنِينَ", en: "believing men", regular: true, human: true },
+  { ar: "صَابِرِينَ", en: "patient men", regular: true, human: true }
 ];
 
 export const SUFFIX_TRANSLATION_QUESTIONS = [
