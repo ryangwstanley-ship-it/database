@@ -827,19 +827,19 @@ export const TRANSLATION_1_QUESTIONS = [
 ];
 
 export const CHALLENGE_2_SENTENCES = [
-  { en: "Why do these men live in this village only?" },
-  { en: "These polytheists prostrate to this idol also." },
-  { en: "This polytheist worshipped these people days ago." },
-  { en: "Why does this idol live with these people?" },
-  { en: "These are the names of these idols, and they worship a man also." },
-  { en: "This worship is for this man only." },
-  { en: "This idol is here, and this man is there." },
-  { en: "Why do these men prostrate to very many villages?" },
-  { en: "These people lived with this polytheist before many days." },
-  { en: "The names of these men were, days ago, the name of this idol." },
-  { en: "These polytheists worship the name of this village also." },
-  { en: "Why do these people worship this man only?" },
-  { en: "These men were prostrating to this village also." },
-  { en: "This man worshipped these polytheists days ago." },
-  { en: "Why does this polytheist live in this village also?" }
+  { en: "Why do these men live in this village only?", ar: "لِمَاذَا هَؤُلَاءِ الرِّجَالُ يَسْكُنُونَ فِي هَذِهِ الْقَرْيَةِ فَقَطْ؟" },
+  { en: "These polytheists prostrate to this idol also.", ar: "هَؤُلَاءِ الْمُشْرِكُونَ يَسْجُدُونَ لِهَذَا الصَّنَمِ أَيْضًا." },
+  { en: "This polytheist worshipped these people days ago.", ar: "عَبَدَ هَذَا الْمُشْرِكُ هَؤُلَاءِ النَّاسَ قَبْلَ أَيَّامٍ." },
+  { en: "Why does this idol live with these people?", ar: "لِمَاذَا يَسْكُنُ هَذَا الصَّنَمُ مَعَ هَؤُلَاءِ النَّاسِ؟" },
+  { en: "These are the names of these idols, and they worship a man also.", ar: "هَذِهِ أَسْمَاءُ هَذِهِ الْأَصْنَامِ، وَتَعْبُدُ رَجُلًا أَيْضًا." },
+  { en: "This worship is for this man only.", ar: "هَذِهِ الْعِبَادَةُ لِهَذَا الرَّجُلِ فَقَطْ." },
+  { en: "This idol is here, and this man is there.", ar: "هَذَا الصَّنَمُ هُنَا، وَهَذَا الرَّجُلُ هُنَاكَ." },
+  { en: "Why do these men prostrate to very many villages?", ar: "لِمَاذَا هَؤُلَاءِ الرِّجَالُ يَسْجُدُونَ لِقُرًى كَثِيرَةٍ جِدًّا؟" },
+  { en: "These people lived with this polytheist before many days.", ar: "هَؤُلَاءِ النَّاسُ سَكَنُوا مَعَ هَذَا الْمُشْرِكِ قَبْلَ أَيَّامٍ كَثِيرَةٍ." },
+  { en: "The names of these men were, days ago, the name of this idol.", ar: "كَانَتْ أَسْمَاءُ هَؤُلَاءِ الرِّجَالِ قَبْلَ أَيَّامٍ اسْمَ هَذَا الصَّنَمِ." },
+  { en: "These polytheists worship the name of this village also.", ar: "هَؤُلَاءِ الْمُشْرِكُونَ يَعْبُدُونَ اسْمَ هَذِهِ الْقَرْيَةِ أَيْضًا." },
+  { en: "Why do these people worship this man only?", ar: "لِمَاذَا هَؤُلَاءِ النَّاسُ يَعْبُدُونَ هَذَا الرَّجُلَ فَقَطْ؟" },
+  { en: "These men were prostrating to this village also.", ar: "كَانَ هَؤُلَاءِ الرِّجَالُ يَسْجُدُونَ لِهَذِهِ الْقَرْيَةِ أَيْضًا." },
+  { en: "This man worshipped these polytheists days ago.", ar: "عَبَدَ هَذَا الرَّجُلُ هَؤُلَاءِ الْمُشْرِكِينَ قَبْلَ أَيَّامٍ." },
+  { en: "Why does this polytheist live in this village also?", ar: "لِمَاذَا يَسْكُنُ هَذَا الْمُشْرِكُ فِي هَذِهِ الْقَرْيَةِ أَيْضًا؟" }
 ];
