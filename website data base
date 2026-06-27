@@ -807,3 +807,21 @@ export const DEMO_TRANSLATION_QUESTIONS = [
   { en: "these Muslim women", ar: "هؤلاء المسلمات" },
   { en: "these polytheist women", ar: "هؤلاء المشركات" }
 ];
+
+export const TRANSLATION_1_QUESTIONS = [
+  { ar: "لِمَاذَا يَسْكُنُ هَذَا الرَّجُلُ فِي هَذِهِ الْقَرْيَةِ فَقَطْ؟", en: "Why does this man live only in this village?" },
+  { ar: "هَذِهِ الْعِبَادَةُ لِهَذِهِ الْأَصْنَامِ فَقَطْ.", en: "This worship is for these idols only." },
+  { ar: "هَؤُلَاءِ الرِّجَالُ يَسْجُدُونَ لِأَصْنَامٍ كَثِيرَةٍ جِدًّا.", en: "These men prostrate to very many idols." },
+  { ar: "هَؤُلَاءِ النَّاسُ يَعْبُدُونَ هَذِهِ الْقُرَى أَيْضًا.", en: "These people worship these villages also." },
+  { ar: "لِمَاذَا هَؤُلَاءِ الْمُشْرِكُونَ يَسْجُدُونَ لِهَذَا الصَّنَمِ؟", en: "Why do these polytheists prostrate to this idol?" },
+  { ar: "سَكَنَ هَذَا الرَّجُلُ مَعَ هَؤُلَاءِ النَّاسِ قَبْلَ أَيَّامٍ.", en: "This man lived with these people days ago." },
+  { ar: "هَذِهِ أَسْمَاءُ هَؤُلَاءِ الرِّجَالِ وَيَعْبُدُونَ صَنَمًا أَيْضًا.", en: "These are the names of these men, and they worship an idol also." },
+  { ar: "يَعْبُدُ هَذَا الرَّجُلُ هَذِهِ الْأَصْنَامَ فَقَطْ.", en: "This man worships these idols only." },
+  { ar: "لِمَاذَا هَؤُلَاءِ الْمُشْرِكُونَ يَسْكُنُونَ فِي قُرًى كَثِيرَةٍ جِدًّا؟", en: "Why do these polytheists live in very many villages?" },
+  { ar: "كَانَ اِسْمُ هَذَا الصَّنَمِ قَبْلَ أَيَّامٍ أَسْمَاءَ الرِّجَالِ.", en: "The name of this idol was, days ago, the names of the men." },
+  { ar: "هَذَا الرَّجُلُ هُنَا، وَهَذَا الْمُشْرِكُ هُنَاكَ.", en: "This man is here, and this polytheist is there." },
+  { ar: "هَؤُلَاءِ الرِّجَالُ يَعْبُدُونَ أَسْمَاءَ هَذِهِ الْأَصْنَامِ فَقَطْ.", en: "These men worship the names of these idols only." },
+  { ar: "لِمَاذَا يَسْكُنُ هَذَا الْمُشْرِكُ فِي قُرًى كَثِيرَةٍ؟", en: "Why does this polytheist live in many villages?" },
+  { ar: "كَانَ هَؤُلَاءِ النَّاسُ يَسْجُدُونَ لِأَصْنَامٍ كَثِيرَةٍ أَيْضًا.", en: "These people were prostrating to many idols also." },
+  { ar: "عَبَدَ هَذَا الرَّجُلُ هَذَا الْمُشْرِكَ قَبْلَ أَيَّامٍ.", en: "This man worshipped this polytheist days ago." }
+];
