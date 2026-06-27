@@ -762,6 +762,24 @@ export const PLURAL_TYPE_QUESTIONS = [
   { ar: "صَابِرِينَ", en: "patient men", regular: true, human: true }
 ];
 
+export const CHALLENGE_1_WORDS = [
+  { ar: "فِي", en: "in" },
+  { ar: "مَعَ", en: "with" },
+  { ar: "هَؤُلَاءِ", en: "these" },
+  { ar: "هَذَا", en: "this (m)" },
+  { ar: "قَبْلَ", en: "before" },
+  { ar: "هُنَاكَ", en: "there" },
+  { ar: "وَ", en: "and" },
+  { ar: "لِمَاذَا", en: "why" },
+  { ar: "كَانَ", en: "was" },
+  { ar: "سَكَنَ", en: "lived" },
+  { ar: "عَبَدَ", en: "worshipped" },
+  { ar: "سَجَدَ", en: "prostrated" },
+  { ar: "يَوْمٌ", en: "day" },
+  { ar: "رَجُلٌ", en: "man" },
+  { ar: "صَنَمٌ", en: "idol" }
+];
+
 export const SUFFIX_TRANSLATION_QUESTIONS = [
   { en: "the men, their idols are many", ar: "الرجال أصنامهم كثيرة" },
   { en: "the people, their village is big", ar: "الناس قريتهم كبيرة" },
