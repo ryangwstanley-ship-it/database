@@ -88,9 +88,13 @@ export const DEFAULT_LESSONS = {
       { ar: 'أَنْتُم', en: 'you (pl)' },
       { ar: 'إِنْ / إِنَّ', en: 'if / indeed' },
       { ar: 'شَاءَ', en: 'willed' },
-      { ar: 'كَ', en: 'you/your (suffix)' },
+    { ar: 'كَ', en: 'you/your (suffix)' },
       { ar: 'فَ', en: 'so/then (prefix)' },
       { ar: 'أَبَدًا', en: 'ever/eternity' },
+      { ar: 'تَعَالَى', en: 'the Most High' },
+      { ar: 'أَيُّهَا', en: 'O you (vocative)' },
+      { ar: 'كُمْ', en: 'your (pl, suffix)' },
+      { ar: 'وَلِيَ', en: 'and for me' },
     ]
   },
   4: {
