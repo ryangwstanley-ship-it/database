@@ -960,6 +960,25 @@ export const DEMO_TRANSLATION_QUESTIONS = [
   { en: "these polytheist women", ar: "هؤلاء المشركات" }
 ];
 
+export const ADJECTIVE_AGREEMENT_TRANSLATION_QUESTIONS = [
+  { en: "a big day", ar: "يوم كبير" },
+  { en: "a big man", ar: "رجل كبير" },
+  { en: "a big village", ar: "قرية كبيرة" },
+  { en: "a big name", ar: "اسم كبير" },
+  { en: "a big idol", ar: "صنم كبير" },
+  { en: "great worship", ar: "عبادة كبيرة" },
+  { en: "big days", ar: "أيام كبيرة" },
+  { en: "many days", ar: "أيام كثيرة" },
+  { en: "big men", ar: "رجال كبيرون" },
+  { en: "many men", ar: "رجال كثيرون" },
+  { en: "big villages", ar: "قرى كبيرة" },
+  { en: "many villages", ar: "قرى كثيرة" },
+  { en: "big names", ar: "أسماء كبيرة" },
+  { en: "many names", ar: "أسماء كثيرة" },
+  { en: "big idols", ar: "أصنام كبيرة" },
+  { en: "many idols", ar: "أصنام كثيرة" }
+];
+
 export const TRANSLATION_1_QUESTIONS = [
   { ar: "لِمَاذَا يَسْكُنُ هَذَا الرَّجُلُ فِي هَذِهِ الْقَرْيَةِ فَقَطْ؟", en: "Why does this man live only in this village?" },
   { ar: "هَذِهِ الْعِبَادَةُ لِهَذِهِ الْأَصْنَامِ فَقَطْ.", en: "This worship is for these idols only." },
