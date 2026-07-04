@@ -961,6 +961,96 @@ export const CHALLENGE_1_WORDS = [
   { ar: "صَنَمٌ", en: "idol" }
 ];
 
+export const CHALLENGE_1_WORDS_L2 = [
+  { ar: "أَنَّ", en: "that" },
+  { ar: "تِلْكَ", en: "that (f)" },
+  { ar: "فَقَط", en: "only" },
+  { ar: "هُمْ", en: "they" },
+  { ar: "لَا", en: "no/not" },
+  { ar: "مَا", en: "what/not" },
+  { ar: "مِن", en: "from" },
+  { ar: "بَلْ", en: "rather" },
+  { ar: "عَلَى", en: "on/upon" },
+  { ar: "لَمْ", en: "did not" },
+  { ar: "لَنْ", en: "will not" },
+  { ar: "ذَلِكَ", en: "that (m)" },
+  { ar: "أَب", en: "father" },
+  { ar: "وَلَد", en: "boy/child" },
+  { ar: "قَالَ", en: "said" }
+];
+
+export const CHALLENGE_1_WORDS_L3 = [
+  { ar: "هُوَ", en: "he" },
+  { ar: "لَيْسَ", en: "is not" },
+  { ar: "إِلَى", en: "to/towards" },
+  { ar: "نَحْنُ", en: "we" },
+  { ar: "أَنْتَ", en: "you (m s)" },
+  { ar: "هَلْ", en: "(question particle)" },
+  { ar: "مِثْل", en: "like/example" },
+  { ar: "أَنَا", en: "I" },
+  { ar: "أَنْتُم", en: "you (pl)" },
+  { ar: "إِنَّ", en: "indeed" },
+  { ar: "فَ", en: "so/then (prefix)" },
+  { ar: "أَبَدًا", en: "ever/eternity" },
+  { ar: "مُسْلِم", en: "Muslim" },
+  { ar: "طَالِب", en: "student/seeker" },
+  { ar: "عِلْم", en: "knowledge" }
+];
+
+export const CHALLENGE_1_WORDS_L4 = [
+  { ar: "أَ", en: "(question prefix)" },
+  { ar: "لَكِنْ", en: "but" },
+  { ar: "ثُمَّ", en: "then" },
+  { ar: "أَوْ", en: "or" },
+  { ar: "حَتَّى", en: "until/even" },
+  { ar: "غَيْر", en: "other than/not" },
+  { ar: "جَاءَ", en: "came" },
+  { ar: "خَرَجَ", en: "went out" },
+  { ar: "بَيْت", en: "house" },
+  { ar: "وَالِد", en: "father/parent" },
+  { ar: "كَبِير", en: "big/old" },
+  { ar: "صَغِير", en: "small/young" },
+  { ar: "كَسَرَ", en: "broke" },
+  { ar: "سَأَلَ", en: "asked" },
+  { ar: "دَخَلَ", en: "entered" }
+];
+
+export const CHALLENGE_1_WORDS_L5 = [
+  { ar: "بِ", en: "with/by (prefix)" },
+  { ar: "بَعْض", en: "some" },
+  { ar: "عَنْ", en: "about/from" },
+  { ar: "أَمَام", en: "in front of" },
+  { ar: "حَوْل", en: "around/about" },
+  { ar: "كُلّ", en: "every/all" },
+  { ar: "إِذَا", en: "if/when" },
+  { ar: "قَبْلَ", en: "before" },
+  { ar: "بَيْن", en: "between" },
+  { ar: "كَيْفَ", en: "how" },
+  { ar: "أَمَّا", en: "as for" },
+  { ar: "عِنْدَ", en: "at/with" },
+  { ar: "الْآن", en: "now" },
+  { ar: "مَاذَا", en: "what" },
+  { ar: "سَ", en: "(future prefix: will)" }
+];
+
+export const CHALLENGE_1_WORDS_L6 = [
+  { ar: "الَّذِي", en: "who/which (m s)" },
+  { ar: "الَّذِين", en: "those who" },
+  { ar: "خَلْف", en: "behind" },
+  { ar: "يَمِين", en: "right (side)" },
+  { ar: "يَسَار", en: "left (side)" },
+  { ar: "فَوْق", en: "above" },
+  { ar: "تَحْت", en: "under" },
+  { ar: "لَعَلَّ", en: "perhaps" },
+  { ar: "اِجْتَمَعَ", en: "gathered" },
+  { ar: "فَكَّرَ", en: "thought" },
+  { ar: "أَلْقَى", en: "threw/cast" },
+  { ar: "وَجَدَ", en: "found" },
+  { ar: "سَالِم", en: "safe/sound" },
+  { ar: "آمَنَ", en: "believed" },
+  { ar: "أَكْبَر", en: "greater/greatest" }
+];
+
 export const SUFFIX_TRANSLATION_QUESTIONS = [
   { en: "the men, their idols are many", ar: "الرجال أصنامهم كثيرة" },
   { en: "the people, their village is big", ar: "الناس قريتهم كبيرة" },
