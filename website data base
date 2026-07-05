@@ -651,6 +651,15 @@ export const SUFFIX_PRONOUN_QUESTIONS = [
   { sentence: "اليَوْمُ نُورُهَا سَاطِعٌ", answer: false }
 ];
 
+export const COMPREHENSION_QUESTIONS_LOOKUP = {
+  comprehension1: 'COMPREHENSION_QUESTIONS_L1',
+  comprehension2: 'COMPREHENSION_QUESTIONS_L2',
+  comprehension3: 'COMPREHENSION_QUESTIONS_L3',
+  comprehension4: 'COMPREHENSION_QUESTIONS_L4',
+  comprehension5: 'COMPREHENSION_QUESTIONS_L5',
+  comprehension6: 'COMPREHENSION_QUESTIONS_L6'
+};
+
 export const COMPREHENSION_QUESTIONS_L1 = [
   { ar: "مَنْ كَانَ آزَرُ؟", en: "Who was Azar?" },
   { ar: "أَيْنَ كَانَ آزَرُ يَسْكُنُ؟", en: "Where did Azar live?" },
