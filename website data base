@@ -651,6 +651,114 @@ export const SUFFIX_PRONOUN_QUESTIONS = [
   { sentence: "اليَوْمُ نُورُهَا سَاطِعٌ", answer: false }
 ];
 
+export const COMPREHENSION_QUESTIONS_L1 = [
+  { ar: "مَنْ كَانَ آزَرُ؟", en: "Who was Azar?" },
+  { ar: "أَيْنَ كَانَ آزَرُ يَسْكُنُ؟", en: "Where did Azar live?" },
+  { ar: "مَاذَا كَانَ آزَرُ؟", en: "What was Azar? (a polytheist or a Muslim?)" },
+  { ar: "مَنْ كَانَ يَسْكُنُ مَعَ آزَرَ؟", en: "Who lived with Azar?" },
+  { ar: "مَاذَا كَانَ فِي الْقَرْيَةِ؟", en: "What was in the village?" },
+  { ar: "مَاذَا كَانَ النَّاسُ يَعْبُدُونَ؟", en: "What did the people worship?" },
+  { ar: "مَاذَا كَانَ النَّاسُ يَفْعَلُونَ لِلْأَصْنَامِ؟", en: "What did the people do to the idols?" },
+  { ar: "هَلْ كَانَ آزَرُ يَعْبُدُ الْأَصْنَامَ أَيْضًا؟", en: "Did Azar also worship the idols?" },
+  { ar: "هَلْ كَانَتِ الْأَصْنَامُ كَثِيرَةً فِي الْقَرْيَةِ؟", en: "Were there many idols in the village?" },
+  { ar: "لِمَنِ الْعِبَادَةُ فَقَطْ؟", en: "Who alone is worship for?" },
+  { ar: "مَتَى كَانَ هَذَا الرَّجُلُ يَسْكُنُ فِي الْقَرْيَةِ؟", en: "When did this man live in the village?" },
+  { ar: "مَاذَا كَانَ اسْمُ هَذَا الرَّجُلِ؟", en: "What was this man's name?" },
+  { ar: "هَلْ كَانَ آزَرُ وَحْدَهُ فِي هَذِهِ الْعِبَادَةِ؟", en: "Was Azar alone in this worship?" },
+  { ar: "هَلْ كَانَ النَّاسُ حَوْلَ آزَرَ مُشْرِكِينَ؟", en: "Were the people around Azar polytheists?" },
+  { ar: "هَلْ عَبَدَ آزَرُ الْأَصْنَامَ؟", en: "Did Azar worship the idols?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L2 = [
+  { ar: "مَنْ كَانَ وَلَدُ آزَرَ؟", en: "Who was Azar's son?" },
+  { ar: "مَعَ مَنْ كَانَ إِبْرَاهِيمُ يَسْكُنُ؟", en: "With whom did Ibrahim live?" },
+  { ar: "مَاذَا كَانَ إِبْرَاهِيمُ يَرَى النَّاسَ يَفْعَلُونَ؟", en: "What did Ibrahim see the people doing?" },
+  { ar: "مَاذَا كَانَ النَّاسُ يَعْبُدُونَ؟", en: "What did the people worship?" },
+  { ar: "مَتَى كَانَ إِبْرَاهِيمُ يَرَى ذَلِكَ؟", en: "When did Ibrahim see that?" },
+  { ar: "هَلْ كَانَتِ الْعِبَادَةُ سَيِّئَةً عِنْدَ إِبْرَاهِيمَ؟", en: "Was the worship bad, according to Ibrahim?" },
+  { ar: "مَاذَا كَانَتِ الْأَصْنَامُ فِي الْحَقِيقَةِ؟", en: "What were the idols in reality?" },
+  { ar: "مَاذَا كَانَ إِبْرَاهِيمُ يَقُولُ فِي نَفْسِهِ؟", en: "What did Ibrahim say to himself?" },
+  { ar: "هَلْ تَنْفَعُ الْحِجَارَةُ شَيْئًا؟", en: "Do the stones benefit anything?" },
+  { ar: "هَلْ كَانَ إِبْرَاهِيمُ مِنَ الْمُشْرِكِينَ؟", en: "Was Ibrahim one of the polytheists?" },
+  { ar: "عَلَى أَيِّ دِينٍ كَانَ إِبْرَاهِيمُ؟", en: "What religion was Ibrahim upon?" },
+  { ar: "مَنْ كَانَ رَبُّ إِبْرَاهِيمَ؟", en: "Who was Ibrahim's Lord?" },
+  { ar: "هَلْ عَبَدَ إِبْرَاهِيمُ الْأَصْنَامَ؟", en: "Did Ibrahim worship the idols?" },
+  { ar: "هَلْ سَيَتْرُكُ إِبْرَاهِيمُ النَّاسَ فِي الشِّرْكِ؟", en: "Will Ibrahim leave the people in polytheism?" },
+  { ar: "مَنْ كَانَ أَبُو إِبْرَاهِيمَ؟", en: "Who was Ibrahim's father?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L3 = [
+  { ar: "مَنْ كَانَ عَلَى التَّوْحِيدِ؟", en: "Who was upon monotheism?" },
+  { ar: "مَنْ كَانَ عَلَى الْكُفْرِ؟", en: "Who was upon disbelief?" },
+  { ar: "مَاذَا كَانَ يَعْبُدُ إِبْرَاهِيمُ؟", en: "What did Ibrahim worship?" },
+  { ar: "مَاذَا كَانَ يَعْبُدُ الْمُشْرِكُونَ؟", en: "What did the polytheists worship?" },
+  { ar: "هَلِ الصَّنَمُ إِلَهٌ؟", en: "Is the idol a god?" },
+  { ar: "مَا هُوَ الصَّنَمُ فِي الْحَقِيقَةِ؟", en: "What is the idol in reality?" },
+  { ar: "مَنْ كَانَ رَبَّ إِبْرَاهِيمَ وَحْدَهُ؟", en: "Who alone was Ibrahim's Lord?" },
+  { ar: "لِمَنِ الْعِبَادَةُ عِنْدَ إِبْرَاهِيمَ؟", en: "Who is worship for, according to Ibrahim?" },
+  { ar: "مَاذَا تَرَكَ إِبْرَاهِيمُ؟", en: "What did Ibrahim leave?" },
+  { ar: "هَلْ تَرَكَ إِبْرَاهِيمُ دِينَ التَّوْحِيدِ؟", en: "Did Ibrahim leave the religion of monotheism?" },
+  { ar: "مَاذَا كَانَ إِبْرَاهِيمُ يَفْعَلُ لِلنَّاسِ؟", en: "What did Ibrahim do for the people?" },
+  { ar: "مَنْ يَعْبُدُ الْمُسْلِمُونَ؟", en: "Whom do the Muslims worship?" },
+  { ar: "مَنْ رَبُّنَا؟", en: "Who is our Lord?" },
+  { ar: "مَا هُوَ دِينُنَا؟", en: "What is our religion?" },
+  { ar: "مَاذَا يَجِبُ أَنْ يَفْعَلَ طَالِبُ الْعِلْمِ؟", en: "What must the student of knowledge do?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L4 = [
+  { ar: "أَيُّ يَوْمٍ جَاءَ فِي هَذَا الدَّرْسِ؟", en: "What day came in this lesson?" },
+  { ar: "مَاذَا فَعَلَ النَّاسُ فِي يَوْمِ الْعِيدِ؟", en: "What did the people do on the festival day?" },
+  { ar: "مَنْ خَرَجَ مَعَ الْأَوْلَادِ؟", en: "Who went out with the children?" },
+  { ar: "مَاذَا قَالَ وَالِدُ إِبْرَاهِيمَ لَهُ؟", en: "What did Ibrahim's father say to him?" },
+  { ar: "لِمَاذَا لَمْ يَخْرُجْ إِبْرَاهِيمُ؟", en: "Why didn't Ibrahim go out?" },
+  { ar: "أَيْنَ بَقِيَ إِبْرَاهِيمُ؟", en: "Where did Ibrahim stay?" },
+  { ar: "لِمَاذَا بَقِيَ إِبْرَاهِيمُ فِي الْبَيْتِ؟", en: "Why did Ibrahim stay in the house?" },
+  { ar: "هَلْ سَمِعَ النَّاسُ نَصِيحَةَ إِبْرَاهِيمَ؟", en: "Did the people listen to Ibrahim's advice?" },
+  { ar: "إِلَى أَيْنَ ذَهَبَ إِبْرَاهِيمُ بَعْدَ ذَلِكَ؟", en: "Where did Ibrahim go after that?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ عِنْدَ الْأَصْنَامِ؟", en: "What did Ibrahim see at the idols?" },
+  { ar: "مَاذَا سَأَلَ إِبْرَاهِيمُ الْأَصْنَامَ؟", en: "What did Ibrahim ask the idols?" },
+  { ar: "لِمَاذَا سَكَتَتِ الْأَصْنَامُ؟", en: "Why were the idols silent?" },
+  { ar: "لِمَاذَا غَضِبَ إِبْرَاهِيمُ؟", en: "Why did Ibrahim become angry?" },
+  { ar: "مَاذَا فَعَلَ إِبْرَاهِيمُ بِالْأَصْنَامِ؟", en: "What did Ibrahim do to the idols?" },
+  { ar: "مَنْ يَدْخُلُ الْجَنَّةَ حَسَبَ هَذَا الدَّرْسِ؟", en: "Who enters Paradise, according to the lesson?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L5 = [
+  { ar: "مِنْ أَيْنَ رَجَعَ النَّاسُ؟", en: "Where did the people return from?" },
+  { ar: "مَاذَا أَرَادَ النَّاسُ أَنْ يَفْعَلُوا فِي بَيْتِ الْأَصْنَامِ؟", en: "What did the people want to do in the house of the idols?" },
+  { ar: "مَاذَا رَأَى النَّاسُ؟", en: "What did the people see?" },
+  { ar: "كَيْفَ كَانَ غَضَبُ النَّاسِ؟", en: "How was the people's anger?" },
+  { ar: "مَاذَا سَأَلَ النَّاسُ؟", en: "What did the people ask?" },
+  { ar: "مَنْ قَالَ بَعْضُ النَّاسِ إِنَّهُ سَمِعَ يَتَكَلَّمُ عَنِ الْأَصْنَامِ؟", en: "Who did some of the people say they heard talking about the idols?" },
+  { ar: "أَيْنَ جَاءُوا بِإِبْرَاهِيمَ؟", en: "Where did they bring Ibrahim?" },
+  { ar: "مَاذَا سَأَلَ النَّاسُ إِبْرَاهِيمَ؟", en: "What did the people ask Ibrahim?" },
+  { ar: "مَنْ قَالَ إِبْرَاهِيمُ إِنَّهُ فَعَلَ هَذَا؟", en: "Who did Ibrahim say did this?" },
+  { ar: "لِمَاذَا قَالَ إِبْرَاهِيمُ ذَلِكَ؟", en: "Why did Ibrahim say that?" },
+  { ar: "مَاذَا عَرَفَ النَّاسُ بَعْدَ ذَلِكَ؟", en: "What did the people know after that?" },
+  { ar: "هَلْ قَبِلَ النَّاسُ الْحَقَّ بَعْدَ أَنْ عَرَفُوهُ؟", en: "Did the people accept the truth after they knew it?" },
+  { ar: "لِمَاذَا غَضِبَ إِبْرَاهِيمُ مَرَّةً أُخْرَى؟", en: "Why did Ibrahim become angry again?" },
+  { ar: "مَاذَا كَانَ عِنْدَ إِبْرَاهِيمَ؟", en: "What certainty did Ibrahim have?" },
+  { ar: "مَاذَا أَصْبَحَ إِبْرَاهِيمُ؟", en: "What did Ibrahim become?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L6 = [
+  { ar: "مَاذَا فَعَلَ النَّاسُ بَعْدَ كَسْرِ الْأَصْنَامِ؟", en: "What did the people do after the idols were broken?" },
+  { ar: "مَاذَا قَالَ النَّاسُ؟", en: "What did the people say?" },
+  { ar: "مَاذَا فَكَّرَ النَّاسُ فِيهِ؟", en: "What did the people think about?" },
+  { ar: "مَنْ أَمَرَ بِأَمْرٍ سَيِّئٍ؟", en: "Who commanded an evil command?" },
+  { ar: "مَاذَا جَمَعُوا؟", en: "What did they gather?" },
+  { ar: "أَيْنَ أَلْقَوْا إِبْرَاهِيمَ؟", en: "Where did they throw Ibrahim?" },
+  { ar: "أَيْنَ كَانَتِ النَّارُ حَوْلَ إِبْرَاهِيمَ؟", en: "Where was the fire around Ibrahim?" },
+  { ar: "مَاذَا أَرَادَ النَّاسُ أَنْ يَفْعَلُوا بِإِبْرَاهِيمَ؟", en: "What did the people want to do to Ibrahim?" },
+  { ar: "مَاذَا أَرَادَ اللَّهُ بَدَلًا مِنْ ذَلِكَ؟", en: "What did Allah want instead?" },
+  { ar: "هَلْ ضَرَّتِ النَّارُ إِبْرَاهِيمَ؟", en: "Did the fire harm Ibrahim?" },
+  { ar: "كَيْفَ وَجَدَ النَّاسُ إِبْرَاهِيمَ؟", en: "How did the people find Ibrahim?" },
+  { ar: "هَلْ كَانَ فَوْقَ إِبْرَاهِيمَ أَثَرٌ مِنَ النَّارِ؟", en: "Was there any trace of the fire above Ibrahim?" },
+  { ar: "لِمَاذَا نَصَرَ اللَّهُ إِبْرَاهِيمَ؟", en: "Why did Allah support Ibrahim?" },
+  { ar: "مَعَ مَنِ اللَّهُ حَسَبَ هَذَا الدَّرْسِ؟", en: "Who is Allah with, according to the lesson?" },
+  { ar: "مَاذَا يَعْرِفُ النَّاسُ الْآنَ عَنِ اللَّهِ؟", en: "What do the people now know about Allah?" }
+];
+
 export const TRUE_FALSE_QUESTIONS_L2 = [
   { sentence: "وَكَانَ لِآزَرَ وَلَدٌ", answer: true },
   { sentence: "وَكَانَ اسْمُ هَذَا الْوَلَدِ إِبْرَاهِيمَ", answer: true },
