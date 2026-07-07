@@ -1478,3 +1478,118 @@ export const CHALLENGE_2_SENTENCES = [
   { en: "This man worshipped these polytheists days ago.", ar: "عَبَدَ هَذَا الرَّجُلُ هَؤُلَاءِ الْمُشْرِكِينَ قَبْلَ أَيَّامٍ." },
   { en: "Why does this polytheist live in this village also?", ar: "لِمَاذَا يَسْكُنُ هَذَا الْمُشْرِكُ فِي هَذِهِ الْقَرْيَةِ أَيْضًا؟" }
 ];
+
+export const CHALLENGE_2_SENTENCES_L2 = [
+  { en: "The boy did not know that the stone was bad, and he spoke about it.", ar: "لَمْ يَعْرِفِ الْوَلَدُ أَنَّ الْحَجَرَ سَيِّئٌ، وَقَالَ عَلَيْهِ." },
+  { en: "The fathers did not see stones, and there is no benefit from them.", ar: "الْآبَاءُ مَا رَأَوْا حِجَارَةً، وَلَا نَفْعَ مِنْهُمْ." },
+  { en: "A boy leaves something bad upon him.", ar: "يَتْرُكُ وَلَدٌ شَيْئًا سَيِّئًا عَلَيْهِ." },
+  { en: "This father knows that another religion is upon them.", ar: "هَذَا الْأَبُ يَعْرِفُ أَنَّ دِينًا آخَرَ عَلَيْهِمْ." },
+  { en: "The boy was not saying anything about the self, and there is no benefit from him.", ar: "مَا كَانَ الْوَلَدُ يَقُولُ عَنِ النَّفْسِ، وَلَا نَفْعَ مِنْهُ." },
+  { en: "The boys left bad lords upon them.", ar: "الْأَوْلَادُ تَرَكُوا أَرْبَابًا سَيِّئِينَ عَلَيْهِمْ." },
+  { en: "That stone did not leave a benefit from him.", ar: "تِلْكَ الْحِجَارَةُ لَمْ تَتْرُكْ نَفْعًا مِنْهُ." },
+  { en: "The boy leaves upon him another thing.", ar: "الْوَلَدُ يَتْرُكُ عَلَيْهِ شَيْئًا آخَرَ." },
+  { en: "The fathers did not leave a benefit from them.", ar: "مَا تَرَكَ الْآبَاءُ نَفْعًا مِنْهُمْ." },
+  { en: "This self knows the boy is upon him.", ar: "هَذِهِ النَّفْسُ تَعْرِفُ الْوَلَدَ عَلَيْهِ." },
+  { en: "The boy did not see the other religion, and he spoke about it.", ar: "لَمْ يَرَ الْوَلَدُ الدِّينَ الْآخَرَ، وَقَالَ عَلَيْهِ." },
+  { en: "The bad things know the boy is upon him.", ar: "الْأَشْيَاءُ السَّيِّئَةُ تَعْرِفُ الْوَلَدَ عَلَيْهِ." },
+  { en: "The boy did not know his Lord, and there is no benefit upon him.", ar: "مَا كَانَ الْوَلَدُ يَعْرِفُ رَبَّهُ، وَلَا نَفْعَ عَلَيْهِ." },
+  { en: "The stones will not leave the boy, and there is no benefit from him.", ar: "الْحِجَارَةُ لَنْ تَتْرُكَ الْوَلَدَ، وَلَا نَفْعَ مِنْهُ." },
+  { en: "The boy did not leave his religion, and he spoke about it.", ar: "لَمْ يَتْرُكِ الْوَلَدُ دِينَهُ، وَقَالَ عَلَيْهِ." },
+  { en: "Other boys see a bad stone upon them.", ar: "أَوْلَادٌ آخَرُونَ يَرَوْنَ حَجَرًا سَيِّئًا عَلَيْهِمْ." },
+  { en: "The fathers did not see that thing, and there is no benefit from them.", ar: "مَا رَأَى الْآبَاءُ ذَلِكَ الشَّيْءَ، وَلَا نَفْعَ مِنْهُمْ." },
+  { en: "These boys know a bad self, and they left something upon him.", ar: "هَؤُلَاءِ الْأَوْلَادُ يَعْرِفُونَ نَفْسًا سَيِّئَةً، وَتَرَكُوا شَيْئًا عَلَيْهِ." },
+  { en: "The fathers did not say anything about shirk, and there is no benefit from them.", ar: "لَمْ يَقُلِ الْآبَاءُ شَيْئًا عَنِ الشِّرْكِ، وَلَا نَفْعَ مِنْهُمْ." },
+  { en: "Other stones leave a benefit upon the boy, and upon him is another thing.", ar: "حِجَارَةٌ أُخَرُ تَتْرُكُ نَفْعًا عَلَى الْوَلَدِ، وَعَلَيْهِ شَيْءٌ آخَرُ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L3 = [
+  { en: "The student is not like the Muslim.", ar: "لَيْسَ الطَّالِبُ مِثْلَ الْمُسْلِمِ." },
+  { en: "The student used to advise the Muslim.", ar: "كَانَ الطَّالِبُ يَنْصَحُ الْمُسْلِمَ." },
+  { en: "God willed knowledge for the student.", ar: "شَاءَ اللَّهُ الْعِلْمَ لِلطَّالِبِ." },
+  { en: "The Muslim used to call them to monotheism.", ar: "كَانَ الْمُسْلِمُ يَدْعُوهُمْ إِلَى التَّوْحِيدِ." },
+  { en: "Knowledge is not like disbelief.", ar: "لَيْسَ الْعِلْمُ مِثْلَ الْكُفْرِ." },
+  { en: "Are you a student of knowledge?", ar: "هَلْ أَنْتَ طَالِبُ عِلْمٍ؟" },
+  { en: "God, the Most High, willed that.", ar: "شَاءَ اللَّهُ تَعَالَى ذَلِكَ." },
+  { en: "The Muslim always used to advise the student.", ar: "كَانَ الْمُسْلِمُ يَنْصَحُ الطَّالِبَ أَبَدًا." },
+  { en: "I am a student, and you are a Muslim.", ar: "أَنَا طَالِبٌ، وَأَنْتَ مُسْلِمٌ." },
+  { en: "The stone is not like a god.", ar: "لَيْسَ الْحَجَرُ مِثْلَ الْإِلَهِ." },
+  { en: "We the Muslims know monotheism.", ar: "نَحْنُ الْمُسْلِمُونَ نَعْرِفُ التَّوْحِيدَ." },
+  { en: "O student, God willed knowledge for you.", ar: "أَيُّهَا الطَّالِبُ، شَاءَ اللَّهُ الْعِلْمَ لَكَ." },
+  { en: "The student always used to call them to knowledge.", ar: "كَانَ الطَّالِبُ يَدْعُوهُمْ إِلَى الْعِلْمِ أَبَدًا." },
+  { en: "Did God will something like this for the Muslim?", ar: "هَلْ شَاءَ اللَّهُ مِثْلَ هَذَا لِلْمُسْلِمِ؟" },
+  { en: "Indeed the student is not upon disbelief.", ar: "إِنَّ الطَّالِبَ لَيْسَ عَلَى الْكُفْرِ." },
+  { en: "You are the Muslims, and I have the like of you.", ar: "أَنْتُمُ الْمُسْلِمُونَ، وَلِيَ مِثْلُكُمْ." },
+  { en: "The Muslim used to advise the student towards monotheism.", ar: "كَانَ الْمُسْلِمُ يَنْصَحُ الطَّالِبَ إِلَى التَّوْحِيدِ." },
+  { en: "Are you like the Muslim student?", ar: "هَلْ أَنْتَ مِثْلُ الطَّالِبِ الْمُسْلِمِ؟" },
+  { en: "Disbelief is never like knowledge.", ar: "لَيْسَ الْكُفْرُ مِثْلَ الْعِلْمِ أَبَدًا." },
+  { en: "The Muslim student always used to call them.", ar: "كَانَ الطَّالِبُ الْمُسْلِمُ يَدْعُوهُمْ أَبَدًا." }
+];
+
+export const CHALLENGE_2_SENTENCES_L4 = [
+  { en: "The father came on the day of the festival.", ar: "جَاءَ الْوَالِدُ فِي يَوْمِ الْعِيدِ." },
+  { en: "The sick father went out of the house.", ar: "خَرَجَ الْوَالِدُ الْمَرِيضُ مِنَ الْبَيْتِ." },
+  { en: "The small boy stayed in the house.", ar: "بَقِيَ الْوَلَدُ الصَّغِيرُ فِي الْبَيْتِ." },
+  { en: "The father wanted to go to the festival.", ar: "أَرَادَ الْوَالِدُ أَنْ يَذْهَبَ إِلَى الْعِيدِ." },
+  { en: "They heard joy in the big house.", ar: "سَمِعُوا فَرَحًا فِي الْبَيْتِ الْكَبِيرِ." },
+  { en: "Won't you all eat at the festival?", ar: "أَلَا تَأْكُلُونَ فِي الْعِيدِ؟" },
+  { en: "The sick one does not speak in the house.", ar: "لَا يَنْطِقُ الْمَرِيضُ فِي الْبَيْتِ." },
+  { en: "The small idols fell silent.", ar: "سَكَتَتِ الْأَصْنَامُ الصَّغِيرَةُ." },
+  { en: "The big father became angry.", ar: "غَضِبَ الْوَالِدُ الْكَبِيرُ." },
+  { en: "The father hit the big house.", ar: "ضَرَبَ الْوَالِدُ الْبَيْتَ الْكَبِيرَ." },
+  { en: "The father broke the small house.", ar: "كَسَرَ الْوَالِدُ الْبَيْتَ الصَّغِيرَ." },
+  { en: "Ask the sick father.", ar: "اسْأَلُوا الْوَالِدَ الْمَرِيضَ." },
+  { en: "The boy enters paradise.", ar: "يَدْخُلُ الْوَلَدُ الْجَنَّةَ." },
+  { en: "The sick one came to the big house.", ar: "جَاءَ الْمَرِيضُ إِلَى الْبَيْتِ الْكَبِيرِ." },
+  { en: "The small boy went out from the festival.", ar: "خَرَجَ الْوَلَدُ الصَّغِيرُ مِنَ الْعِيدِ." },
+  { en: "The father will never leave the house.", ar: "لَنْ يَخْرُجَ الْوَالِدُ مِنَ الْبَيْتِ أَبَدًا." },
+  { en: "Did the boy stay in the big house?", ar: "أَبَقِيَ الْوَلَدُ فِي الْبَيْتِ الْكَبِيرِ؟" },
+  { en: "Do the idols speak? No, they fell silent.", ar: "أَتَنْطِقُ الْأَصْنَامُ؟ لَا، سَكَتَتْ." },
+  { en: "The father wanted joy at the festival.", ar: "أَرَادَ الْوَالِدُ الْفَرَحَ فِي الْعِيدِ." },
+  { en: "Ask about the sick father, then he enters the house.", ar: "اسْأَلُوا عَنِ الْوَالِدِ الْمَرِيضِ، ثُمَّ يَدْخُلُ الْبَيْتَ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L5 = [
+  { en: "The ally returned from the enemy.", ar: "رَجَعَ الْوَلِيُّ مِنْ عِنْدِ الْعَدُوِّ." },
+  { en: "They were amazed at the intense truth.", ar: "تَعَجَّبُوا مِنَ الْحَقِّ الشَّدِيدِ." },
+  { en: "The ally did an intense action.", ar: "فَعَلَ الْوَلِيُّ فِعْلًا شَدِيدًا." },
+  { en: "Did you do this action?", ar: "أَأَنْتَ فَعَلْتَ هَذَا الْفِعْلَ؟" },
+  { en: "The enemy speaks about the truth.", ar: "يَتَكَلَّمُ الْعَدُوُّ عَنِ الْحَقِّ." },
+  { en: "The ally became angry.", ar: "أَصْبَحَ الْوَلِيُّ غَاضِبًا." },
+  { en: "The ally has intense certainty.", ar: "عِنْدَ الْوَلِيِّ يَقِينٌ شَدِيدٌ." },
+  { en: "How did the enemy become angry?", ar: "كَيْفَ أَصْبَحَ الْعَدُوُّ غَاضِبًا؟" },
+  { en: "The angry one returned before the ally.", ar: "رَجَعَ الْغَاضِبُ قَبْلَ الْوَلِيِّ." },
+  { en: "Between the ally and the enemy is a truth.", ar: "بَيْنَ الْوَلِيِّ وَالْعَدُوِّ حَقٌّ." },
+  { en: "As for the enemy, he was amazed at the certainty.", ar: "أَمَّا الْعَدُوُّ، فَتَعَجَّبَ مِنَ الْيَقِينِ." },
+  { en: "What did the ally do regarding the truth?", ar: "مَاذَا فَعَلَ الْوَلِيُّ عِنْدَ الْحَقِّ؟" },
+  { en: "If the enemy returns, the ally is amazed.", ar: "إِذَا رَجَعَ الْعَدُوُّ، تَعَجَّبَ الْوَلِيُّ." },
+  { en: "Around every side, the ally speaks.", ar: "حَوْلَ كُلِّ جَانِبٍ، يَتَكَلَّمُ الْوَلِيُّ." },
+  { en: "Before the certainty, the enemy was angry.", ar: "قَبْلَ الْيَقِينِ، كَانَ الْعَدُوُّ غَاضِبًا." },
+  { en: "Now the truth has become a certainty.", ar: "الْآنَ أَصْبَحَ الْحَقُّ يَقِينًا." },
+  { en: "How was the ally amazed at the enemy's action?", ar: "كَيْفَ تَعَجَّبَ الْوَلِيُّ مِنْ فِعْلِ الْعَدُوِّ؟" },
+  { en: "Some of the enemy did a broken action.", ar: "بَعْضُ الْعَدُوِّ فَعَلَ فِعْلًا مَكْسُورًا." },
+  { en: "As for the ally, he has certainty, and as for the enemy, he is angry.", ar: "أَمَّا الْوَلِيُّ فَعِنْدَهُ يَقِينٌ، وَأَمَّا الْعَدُوُّ فَغَاضِبٌ." },
+  { en: "What does the enemy say about the intense side?", ar: "مَاذَا يَتَكَلَّمُ الْعَدُوُّ عَنِ الْجَانِبِ الشَّدِيدِ؟" }
+];
+
+export const CHALLENGE_2_SENTENCES_L6 = [
+  { en: "The people gathered upon a great matter.", ar: "اجْتَمَعَ النَّاسُ عَلَى أَمْرٍ عَظِيمٍ." },
+  { en: "Salim thought about the recompense.", ar: "فَكَّرَ سَالِمٌ فِي الْجَزَاءِ." },
+  { en: "Salim commanded a great matter.", ar: "أَمَرَ سَالِمٌ بِأَمْرٍ عَظِيمٍ." },
+  { en: "They gathered a great recompense.", ar: "جَمَعُوا جَزَاءً عَظِيمًا." },
+  { en: "They cast a trace at the right side.", ar: "أَلْقَوْا أَثَرًا عِنْدَ الْيَمِينِ." },
+  { en: "Perhaps those who believed found victory.", ar: "لَعَلَّ الَّذِينَ آمَنُوا وَجَدُوا نَصْرًا." },
+  { en: "The fire does not harm Salim.", ar: "لَا تَضُرُّ النَّارُ سَالِمًا." },
+  { en: "The greatest helped Salim.", ar: "نَصَرَ الْأَكْبَرُ سَالِمًا." },
+  { en: "They believed in the great promise.", ar: "آمَنُوا بِالْوَعْدِ الْعَظِيمِ." },
+  { en: "Salim found a trace above the left side.", ar: "وَجَدَ سَالِمٌ أَثَرًا فَوْقَ الْيَسَارِ." },
+  { en: "Those who believe in God have victory.", ar: "الَّذِينَ يُؤْمِنُونَ بِاللَّهِ لَهُمْ نَصْرٌ." },
+  { en: "We do a great matter.", ar: "نَعْمَلُ أَمْرًا عَظِيمًا." },
+  { en: "The recompense of the greatest is great.", ar: "جَزَاءُ الْأَكْبَرِ عَظِيمٌ." },
+  { en: "The fire does not harm those who believed.", ar: "لَا تَضُرُّ النَّارُ الَّذِينَ آمَنُوا." },
+  { en: "Salim commanded a great recompense.", ar: "أَمَرَ سَالِمٌ بِجَزَاءٍ عَظِيمٍ." },
+  { en: "The people gathered behind Salim.", ar: "اجْتَمَعَ النَّاسُ خَلْفَ سَالِمٍ." },
+  { en: "Salim thought about the greatest victory.", ar: "فَكَّرَ سَالِمٌ فِي النَّصْرِ الْأَكْبَرِ." },
+  { en: "They gathered a trace and a promise.", ar: "جَمَعُوا أَثَرًا وَوَعْدًا." },
+  { en: "God helped those who believed.", ar: "نَصَرَ اللَّهُ الَّذِينَ آمَنُوا." },
+  { en: "They cast a great recompense at the matter.", ar: "أَلْقَوْا جَزَاءً عَظِيمًا عِنْدَ الْأَمْرِ." }
+];
