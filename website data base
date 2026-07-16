@@ -1042,6 +1042,136 @@ export const TRUE_FALSE_QUESTIONS = [
 ];
 
 
+export const TRUE_FALSE_QUESTIONS_L7 = [
+  { sentence: "أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ قَوْمَهُ إِلَى اللهِ", answer: true, en: "Ibrahim wanted to call his people to Allah." },
+  { sentence: "كَانَ النَّاسُ يَعْبُدُونَ الْكَوَاكِبَ وَالشَّمْسَ وَالْقَمَرَ", answer: true, en: "The people used to worship the stars, the sun, and the moon." },
+  { sentence: "وَلَمَّا غَابَ الْكَوْكَبُ قَالَ: لَا، هَذَا لَيْسَ رَبِّي. رَبِّي لَا يَغِيبُ", answer: true, en: "And when the star disappeared, he said: 'No, this is not my Lord. My Lord does not disappear.'" },
+  { sentence: "ثُمَّ رَأَى إِبْرَاهِيمُ الْقَمَرَ فَقَالَ: هَذَا رَبِّي", answer: true, en: "Then Ibrahim saw the moon, so he said: 'This is my Lord.'" },
+  { sentence: "وَلَمَّا غَابَتِ الشَّمْسُ قَالَ: لَا، هَذِهِ لَيْسَتْ رَبِّي", answer: true, en: "And when the sun disappeared, he said: 'No, this is not my Lord.'" },
+  { sentence: "إِنَّ اللهَ حَيٌّ لَا يَمُوتُ، وَإِنَّ اللهَ يَبْقَى لَا يَغِيبُ، وَإِنَّ اللهَ قَوِيٌّ لَا يُغْلَبُ", answer: true, en: "Indeed, Allah is alive and does not die, and Allah remains and does not disappear, and Allah is strong and cannot be overcome." },
+  { sentence: "وَاللهُ خَالِقُهَا وَنَاصِرُ الْمُؤْمِنِينَ", answer: true, en: "And Allah is its Creator and the Helper of the believers." },
+  { sentence: "أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ كَوْكَبَهُ إِلَى اللهِ", answer: false, en: "Ibrahim wanted to call his people to Allah." },
+  { sentence: "كَانَ النَّاسُ يَعْبُدُونَ الْكَوَاكِبَ وَالْأَرْضَ وَالْقَمَرَ", answer: false, en: "The people used to worship the stars, the sun, and the moon." },
+  { sentence: "فِي النَّهَارِ رَأَى إِبْرَاهِيمُ كَوْكَبًا فَقَالَ: هَذَا رَبِّي", answer: false, en: "At night, Ibrahim saw a star, so he said: 'This is my Lord.'" },
+  { sentence: "وَلَمَّا غَابَ الْكَوْكَبُ قَالَ: لَا، هَذَا لَيْسَ رَبِّي. رَبِّي لَا يَمُوتُ", answer: false, en: "And when the star disappeared, he said: 'No, this is not my Lord. My Lord does not disappear.'" },
+  { sentence: "ثُمَّ رَأَى إِبْرَاهِيمُ الْمَخْلُوقَ فَقَالَ: هَذَا رَبِّي", answer: false, en: "Then Ibrahim saw the moon, so he said: 'This is my Lord.'" },
+  { sentence: "وَلَمَّا غَلَبَتِ الشَّمْسُ قَالَ: لَا، هَذِهِ لَيْسَتْ رَبِّي", answer: false, en: "And when the sun disappeared, he said: 'No, this is not my Lord.'" },
+  { sentence: "إِنَّ اللهَ حَيٌّ لَا يَمُوتُ، وَإِنَّ اللهَ يَبْقَى لَا يَغِيبُ، وَإِنَّ اللهَ ضَعِيفٌ لَا يُغْلَبُ", answer: false, en: "Indeed, Allah is alive and does not die, and Allah remains and does not disappear, and Allah is strong and cannot be overcome." },
+  { sentence: "وَاللهُ نَاصِرُهَا وَنَاصِرُ الْمُؤْمِنِينَ", answer: false, en: "And Allah is its Creator and the Helper of the believers." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L8 = [
+  { sentence: "وَهَدَى اللهُ إِبْرَاهِيمَ وَجَعَلَهُ نَبِيًّا وَرَسُولًا وَخَلِيلًا", answer: true, en: "And Allah guided Ibrahim and made him a prophet, a messenger, and a close friend." },
+  { sentence: "حَوْلَ إِبْرَاهِيمَ مُشْرِكُونَ عَلَى سَبِيلٍ إِلَى النَّارِ", answer: true, en: "Around Ibrahim were polytheists on a path to the Fire." },
+  { sentence: "لَا يُحِبُّ إِبْرَاهِيمُ أَنْ يَرَى النَّاسَ فِي النَّارِ", answer: true, en: "Ibrahim did not like to see the people in the Fire." },
+  { sentence: "وَأَمَرَ اللهُ إِبْرَاهِيمَ أَنْ يَدْعُوَ قَوْمَهُ", answer: true, en: "And Allah commanded Ibrahim to call his people." },
+  { sentence: "وَاللهُ عَلِيمٌ بِالْمُحْسِنِينَ — وَلِلْمُؤْمِنِينَ أَجْرٌ عَظِيمٌ عِنْدَهُ", answer: true, en: "And Allah is All-Knowing of those who do good — and for the believers is a great reward with Him." },
+  { sentence: "عَلِمَ إِبْرَاهِيمُ أَنَّ اللهَ رَبُّ الْكَوْكَبِ، وَأَنَّ اللهَ رَبُّ الْقَمَرِ، وَأَنَّ اللهَ رَبُّ الشَّمْسِ، وَأَنَّ اللهَ رَبُّ الْكِتَابِ", answer: false, en: "Ibrahim knew that Allah is the Lord of the star, the Lord of the moon, the Lord of the sun, and the Lord of all the worlds." },
+  { sentence: "وَهَدَى اللهُ إِبْرَاهِيمَ وَجَعَلَهُ نَبِيًّا وَرَسُولًا وَمُحْسِنًا", answer: false, en: "And Allah guided Ibrahim and made him a prophet, a messenger, and a close friend." },
+  { sentence: "حَوْلَ إِبْرَاهِيمَ مُشْرِكُونَ عَلَى عَذَابٍ إِلَى النَّارِ", answer: false, en: "Around Ibrahim were polytheists on a path to the Fire." },
+  { sentence: "لَا يُحِبُّ إِبْرَاهِيمُ أَنْ يَرَى النَّاسَ فِي الْعَذَابِ", answer: false, en: "Ibrahim did not like to see the people in the Fire." },
+  { sentence: "وَأَمَرَ اللهُ إِبْرَاهِيمَ أَنْ يَهْدِيَ قَوْمَهُ", answer: false, en: "And Allah commanded Ibrahim to call his people." },
+  { sentence: "وَاللهُ عَلِيمٌ بِالْمُحْسِنِينَ — وَلِلْمُؤْمِنِينَ عَذَابٌ عَظِيمٌ عِنْدَهُ", answer: false, en: "And Allah is All-Knowing of those who do good — and for the believers is a great reward with Him." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L9 = [
+  { sentence: "نَظَرَ إِبْرَاهِيمُ إِلَى قَوْمِهِ وَرَآهُمْ عَلَى الشِّرْكِ", answer: true, en: "Ibrahim looked at his people and saw them upon polytheism." },
+  { sentence: "وَلَمْ يَخَفْ إِبْرَاهِيمُ — بَلْ دَعَا بِقُوَّةٍ", answer: true, en: "And Ibrahim was not afraid — rather, he called out with strength." },
+  { sentence: "فَمَا فَائِدَةُ الْأَصْنَامِ؟", answer: true, en: "So what is the benefit of the idols?" },
+  { sentence: "وَكَانَ إِبْرَاهِيمُ حَكِيمًا يَمْلِكُ عَقْلًا قَوِيًّا", answer: true, en: "And Ibrahim was wise, possessing a strong mind." },
+  { sentence: "وَكَانَ أَكْثَرَ عِلْمًا بِالْحَقِّ مِنْ وَالِدِهِ — وَلَوْ كَانَ أَصْغَرَ مِنْهُ", answer: true, en: "And he had more knowledge of the truth than his father — even though he was younger than him." },
+  { sentence: "نَظَرَ إِبْرَاهِيمُ إِلَى قَوْمِهِ وَرَآهُمْ عَلَى الظُّلْمِ", answer: false, en: "Ibrahim looked at his people and saw them upon polytheism." },
+  { sentence: "دَعَا إِبْرَاهِيمُ قَوْمَهُ إِلَى اللهِ كَمَلِكٍ يَنْصَحُ أَخَاهُ", answer: false, en: "Ibrahim called his people to Allah like a brother advising his brother." },
+  { sentence: "وَلَمْ يَخَفْ إِبْرَاهِيمُ — بَلْ دَعَا بِشَجَاعَةٍ", answer: false, en: "And Ibrahim was not afraid — rather, he called out with strength." },
+  { sentence: "فَمَا عَقْلُ الْأَصْنَامِ؟", answer: false, en: "So what is the benefit of the idols?" },
+  { sentence: "وَكَانَ إِبْرَاهِيمُ حَكِيمًا يَمْلِكُ مَالًا قَوِيًّا", answer: false, en: "And Ibrahim was wise, possessing a strong mind." },
+  { sentence: "وَكَانَ أَكْثَرَ عِلْمًا بِالْحَقِّ مِنْ وَالِدِهِ — وَلَوْ كَانَ ظَالِمًا مِنْهُ", answer: false, en: "And he had more knowledge of the truth than his father — even though he was younger than him." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L10 = [
+  { sentence: "كَانَ فِي الْمَدِينَةِ مَلِكٌ كَبِيرٌ جِدًّا", answer: true, en: "There was in the city a very great king." },
+  { sentence: "فَغَضِبَ الْمَلِكُ وَطَلَبَ إِبْرَاهِيمَ", answer: true, en: "So the king became angry and summoned Ibrahim." },
+  { sentence: "إِذْ قَالَ إِبْرَاهِيمُ: رَبِّيَ الَّذِي يُحْيِي وَيُمِيتُ", answer: true, en: "Ibrahim said: 'My Lord is the One who gives life and causes death.'" },
+  { sentence: "وَاللهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ", answer: true, en: "And Allah does not guide the wrongdoing people." },
+  { sentence: "وَاتَّخَذَ الْمَلِكُ إِبْرَاهِيمَ عَدُوًّا", answer: true, en: "And the king took Ibrahim as an enemy." },
+  { sentence: "كَانَ فِي الْمَدِينَةِ مَلِكٌ فَاسِدٌ جِدًّا", answer: false, en: "There was in the city a very great king." },
+  { sentence: "وَكَانَ النَّاسُ يَسْجُدُونَ لِهَذَا الْمَلِكِ مِنْ دُونِ اللهِ كَأَنَّ الْمَلِكَ بَعِيدٌ — لَكِنَّهُ لَيْسَ إِلَهًا", answer: false, en: "And the people prostrated to this king instead of Allah, as if the king were a god — but he was not a god." },
+  { sentence: "فَغَضِبَ الْمَلِكُ وَظَنَّ إِبْرَاهِيمَ", answer: false, en: "So the king became angry and summoned Ibrahim." },
+  { sentence: "إِذْ قَالَ إِبْرَاهِيمُ: رَبِّيَ الَّذِي يَرْحَمُ وَيُمِيتُ", answer: false, en: "Ibrahim said: 'My Lord is the One who gives life and causes death.'" },
+  { sentence: "وَاللهُ لَا يَهْدِي الْقَوْمَ الْكَافِرِينَ", answer: false, en: "And Allah does not guide the wrongdoing people." },
+  { sentence: "وَاتَّخَذَ الْمَلِكُ إِبْرَاهِيمَ سَبَبًا", answer: false, en: "And the king took Ibrahim as an enemy." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L11 = [
+  { sentence: "أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ وَالِدَهُ أَيْضًا", answer: true, en: "Ibrahim wanted to call his father too." },
+  { sentence: "لَيْسَ لِلَّهِ زَوْجٌ وَلَا وَلَدٌ وَلَا أَخٌ وَلَا شَرِيكٌ", answer: true, en: "Allah has no wife, no child, no brother, and no partner." },
+  { sentence: "أَمَرَ آزَرُ ابْنَهُ أَنْ يَنْتَهِيَ مِنَ الدَّعْوَةِ", answer: true, en: "Azar commanded his son to stop the calling." },
+  { sentence: "وَحَزِنَ إِبْرَاهِيمُ — لِأَنَّ أَبَاهُ الْحَبِيبَ رَدَّ الْحَقَّ", answer: true, en: "And Ibrahim grieved — because his beloved father rejected the truth." },
+  { sentence: "أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ صَاحِبَهُ أَيْضًا", answer: false, en: "Ibrahim wanted to call his father too." },
+  { sentence: "فَقَالَ إِبْرَاهِيمُ لِابْنِهِ: يَا أَبَتِ، لِمَ تَعْبُدُ مَا لَا يَسْمَعُ وَلَا يَنْفَعُ؟", answer: false, en: "So Ibrahim said to his father: 'O my father, why do you worship what does not hear and does not benefit?'" },
+  { sentence: "لَيْسَ لِلَّهِ زَوْجٌ وَلَا وَلَدٌ وَلَا أَخٌ وَلَا صَاحِبٌ", answer: false, en: "Allah has no wife, no child, no brother, and no partner." },
+  { sentence: "أَمَرَ آزَرُ زَوْجَهُ أَنْ يَنْتَهِيَ مِنَ الدَّعْوَةِ", answer: false, en: "Azar commanded his son to stop the calling." },
+  { sentence: "وَحَزِنَ إِبْرَاهِيمُ — لِأَنَّ أَبَاهُ الْحَبِيبَ أَخَذَ الْحَقَّ", answer: false, en: "And Ibrahim grieved — because his beloved father rejected the truth." },
+  { sentence: "وَأَرَادَ إِبْرَاهِيمُ أَنْ يَجْلِسَ إِلَى بَلَدٍ آخَرَ يَدْعُو فِيهِ إِلَى اللهِ", answer: false, en: "And Ibrahim wanted to migrate to another land where he could call to Allah." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L12 = [
+  { sentence: "فَخَرَجَ إِبْرَاهِيمُ مِنْ بَلَدِهِ وَقَصَدَ مَكَّةَ مَعَ زَوْجَتِهِ هَاجَرَ", answer: true, en: "So Ibrahim left his land and headed for Makkah with his wife Hajar." },
+  { sentence: "قَالَ إِبْرَاهِيمُ: نَعَمْ", answer: true, en: "Ibrahim said: 'Yes.'" },
+  { sentence: "وَكَانَتْ هَاجَرُ قَوِيَّةَ التَّوَكُّلِ عَلَى اللهِ", answer: true, en: "And Hajar had strong reliance upon Allah." },
+  { sentence: "وَأَيْقَنَتْ أَنَّ اللهَ مَعَ الَّذِينَ صَبَرُوا", answer: true, en: "And she was certain that Allah is with those who are patient." },
+  { sentence: "وَأَرَادَ إِبْرَاهِيمُ أَنْ يَنْتَظِرَ إِلَى بَلَدٍ آخَرَ يَعْبُدُ فِيهِ اللهَ وَيَدْعُو النَّاسَ إِلَيْهِ", answer: false, en: "And Ibrahim wanted to travel to another land where he could worship Allah and call the people to Him." },
+  { sentence: "فَخَرَجَ إِبْرَاهِيمُ مِنْ بَلَدِهِ وَقَصَدَ مَكَّةَ مَعَ طَعَامِهِ هَاجَرَ", answer: false, en: "So Ibrahim left his land and headed for Makkah with his wife Hajar." },
+  { sentence: "قَالَ إِبْرَاهِيمُ: قَدْ", answer: false, en: "Ibrahim said: 'Yes.'" },
+  { sentence: "قَالَتْ هَاجَرُ: إِذًا لَا يَنْتَظِرُنَا", answer: false, en: "Hajar said: 'Then He will not let us be lost.'" },
+  { sentence: "وَكَانَتْ هَاجَرُ قَرِيبَةَ التَّوَكُّلِ عَلَى اللهِ", answer: false, en: "And Hajar had strong reliance upon Allah." },
+  { sentence: "وَأَيْقَنَتْ أَنَّ اللهَ مَعَ الَّذِينَ انْتَظَرُوا", answer: false, en: "And she was certain that Allah is with those who are patient." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L13 = [
+  { sentence: "عَطِشَ إِسْمَاعِيلُ وَبَكَى", answer: true, en: "Isma'il became thirsty and cried." },
+  { sentence: "كَانَتْ تَتْعَبُ وَتَتَأَلَّمُ — لَكِنَّهَا لَمْ تَتْرُكِ الطَّلَبَ", answer: true, en: "She was growing tired and suffering — but she did not give up the search." },
+  { sentence: "وَبَارَكَ اللهُ فِي زَمْزَمَ بَرَكَةً دَائِمَةً", answer: true, en: "And Allah blessed Zamzam with a lasting blessing." },
+  { sentence: "وَهَذِهِ هِيَ الْبِئْرُ الَّتِي يَشْرَبُ مِنْهَا النَّاسُ فِي الْحَجِّ إِلَى يَوْمِنَا هَذَا", answer: true, en: "And this is the well from which the people drink during Hajj to this very day." },
+  { sentence: "عَطِشَ إِسْمَاعِيلُ وَقَامَ", answer: false, en: "Isma'il became thirsty and cried." },
+  { sentence: "فَقَامَتْ هَاجَرُ تَبْكِي مِنَ الصَّفَا إِلَى الْمَرْوَةِ تَطْلُبُ الْمَاءَ", answer: false, en: "So Hajar got up, running from Safa to Marwah, seeking the water." },
+  { sentence: "كَانَتْ تَشْرَبُ وَتَتَأَلَّمُ — لَكِنَّهَا لَمْ تَتْرُكِ الطَّلَبَ", answer: false, en: "She was growing tired and suffering — but she did not give up the search." },
+  { sentence: "وَبَارَكَ اللهُ فِي زَمْزَمَ بَرَكَةً أَخِيرَةً", answer: false, en: "And Allah blessed Zamzam with a lasting blessing." },
+  { sentence: "وَهَذِهِ هِيَ الْبِئْرُ الَّتِي يَشْرَبُ مِنْهَا النَّاسُ فِي الْبَلَاءِ إِلَى يَوْمِنَا هَذَا", answer: false, en: "And this is the well from which the people drink during Hajj to this very day." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L14 = [
+  { sentence: "وَعَادَ إِبْرَاهِيمُ إِلَى مَكَّةَ بَعْدَ حِينٍ", answer: true, en: "And Ibrahim returned to Makkah after a while." },
+  { sentence: "وَكَانَ هَذَا وَحْيًا مِنَ اللهِ", answer: true, en: "And this was a revelation from Allah." },
+  { sentence: "فَأَطَاعَ إِسْمَاعِيلُ أَبَاهُ وَأَسْلَمَ وَجْهَهُ لِلهِ", answer: true, en: "So Isma'il obeyed his father and submitted his face to Allah." },
+  { sentence: "وَأَحَبَّ اللهُ عَمَلَ إِبْرَاهِيمَ — فَرَفَعَ اللهُ دَرَجَتَهُ وَأَمَرَ الْمُسْلِمِينَ بِالذَّبْحِ فِي عِيدِ الْأَضْحَى", answer: true, en: "And Allah loved Ibrahim's deed — so Allah raised his rank and commanded the Muslims to sacrifice on Eid al-Adha." },
+  { sentence: "وَلَعِبَ إِبْرَاهِيمُ إِلَى مَكَّةَ بَعْدَ حِينٍ", answer: false, en: "And Ibrahim returned to Makkah after a while." },
+  { sentence: "ذَاتَ لَيْلَةٍ رَأَى إِبْرَاهِيمُ فِي الْمَنَامِ أَنَّهُ يَرْفَعُ إِسْمَاعِيلَ", answer: false, en: "One night, Ibrahim saw in a dream that he was sacrificing Isma'il." },
+  { sentence: "وَكَانَ هَذَا اِمْتِحَانًا مِنَ اللهِ", answer: false, en: "And this was a revelation from Allah." },
+  { sentence: "فَأَطَاعَ إِسْمَاعِيلُ أَبَاهُ وَرَفَعَ وَجْهَهُ لِلهِ", answer: false, en: "So Isma'il obeyed his father and submitted his face to Allah." },
+  { sentence: "وَأَحَبَّ اللهُ عَمَلَ إِبْرَاهِيمَ — فَرَفَعَ اللهُ طَاعَتَهُ وَأَمَرَ الْمُسْلِمِينَ بِالذَّبْحِ فِي عِيدِ الْأَضْحَى", answer: false, en: "And Allah loved Ibrahim's deed — so Allah raised his rank and commanded the Muslims to sacrifice on Eid al-Adha." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L15 = [
+  { sentence: "وَنَقَلَا الْحِجَارَةَ مِنْ حَوْلِهِمَا وَبَنَيَا الْكَعْبَةَ", answer: true, en: "And the two of them carried the stones from around them and built the Kaaba." },
+  { sentence: "وَسَأَلَ إِبْرَاهِيمُ رَبَّهُ أَنْ يَبْعَثَ فِي ذُرِّيَّتِهِ نَبِيًّا يَتْلُو عَلَيْهِمْ آيَاتِ اللَّهِ", answer: true, en: "And Ibrahim asked his Lord to send among his descendants a prophet who would recite to them the verses of Allah." },
+  { sentence: "وَالْيَوْمَ يُسَافِرُ الْمُسْلِمُونَ إِلَى الْكَعْبَةِ مِنْ كُلِّ بَلَدٍ وَيَطُوفُونَ حَوْلَهَا", answer: true, en: "And today the Muslims travel to the Kaaba from every country and circle around it." },
+  { sentence: "فَجَاءَ إِبْرَاهِيمُ إِلَى الْمَكَانِ الَّذِي طَهَّرَ اللَّهُ فِيهِ، وَجَاءَ إِسْمَاعِيلُ مَعَهُ", answer: false, en: "So Ibrahim came to the place that Allah permitted, and Isma'il came with him." },
+  { sentence: "وَطَافَا الْحِجَارَةَ مِنْ حَوْلِهِمَا وَبَنَيَا الْكَعْبَةَ", answer: false, en: "And the two of them carried the stones from around them and built the Kaaba." },
+  { sentence: "وَسَأَلَ إِبْرَاهِيمُ رَبَّهُ أَنْ يَزِيدَ فِي ذُرِّيَّتِهِ نَبِيًّا يَتْلُو عَلَيْهِمْ آيَاتِ اللَّهِ", answer: false, en: "And Ibrahim asked his Lord to send among his descendants a prophet who would recite to them the verses of Allah." },
+  { sentence: "وَالْيَوْمَ يَنْقُلُ الْمُسْلِمُونَ إِلَى الْكَعْبَةِ مِنْ كُلِّ بَلَدٍ وَيَطُوفُونَ حَوْلَهَا", answer: false, en: "And today the Muslims travel to the Kaaba from every country and circle around it." }
+];
+
+export const TRUE_FALSE_QUESTIONS_L16 = [
+  { sentence: "وَكَانَ لِإِسْحَاقَ وَلَدٌ اسْمُهُ يَعْقُوبُ، وَكَانَ نَبِيًّا", answer: true, en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
+  { sentence: "وَجَعَلَ اللَّهُ فِي كُلِّ قَرْنٍ مِنْ ذُرِّيَّةِ إِبْرَاهِيمَ نَبِيًّا أَوْ مَلِكًا", answer: true, en: "And Allah placed in every generation of Ibrahim's descendants a prophet or a king." },
+  { sentence: "وَهَذِهِ الْقِصَّةُ هِيَ دَرْسُنَا الْقَادِمُ", answer: true, en: "And this story is our next lesson." },
+  { sentence: "وَكَمَا بَنَى إِبْرَاهِيمُ وَإِسْمَاعِيلُ مَسْجِدًا لِلَّهِ فِي مَكَّةَ، بَنَى إِسْحَاقُ بَيْتًا لِلَّهِ فِي الشَّامِ", answer: false, en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { sentence: "وَكَانَ لِإِسْحَاقَ وَلَدٌ اسْمُهُ يَعْقُوبُ، وَكَانَ صَالِحًا", answer: false, en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
+  { sentence: "وَجَعَلَ اللَّهُ فِي كُلِّ مِيثَاقٍ مِنْ ذُرِّيَّةِ إِبْرَاهِيمَ نَبِيًّا أَوْ مَلِكًا", answer: false, en: "And Allah placed in every generation of Ibrahim's descendants a prophet or a king." },
+  { sentence: "وَهَذِهِ الْقِصَّةُ هِيَ دَرْسُنَا الْأَوَّلُ", answer: false, en: "And this story is our next lesson." }
+];
+
 export const SUFFIX_PRONOUN_QUESTIONS = [
   // ───────── 30 CORRECT (suffix agrees → true) ─────────
   // masculine singular → هُ
