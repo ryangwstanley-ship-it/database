@@ -1994,6 +1994,131 @@ principles: [
   }
 ];
 
+export const COMPREHENSION_QUESTIONS_L7 = [
+  { ar: "مَاذَا أَرَادَ إِبْرَاهِيمُ أَنْ يَفْعَلَ بِقَوْمِهِ؟", en: "What did Ibrahim want to do with his people?" },
+  { ar: "مَاذَا كَانَ النَّاسُ يَعْبُدُونَ؟", en: "What did the people worship?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ فِي اللَّيْلِ؟", en: "What did Ibrahim see at night?" },
+  { ar: "مَاذَا قَالَ إِبْرَاهِيمُ لَمَّا غَابَ الْكَوْكَبُ؟", en: "What did Ibrahim say when the star disappeared?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ بَعْدَ الْكَوْكَبِ؟", en: "What did Ibrahim see after the star?" },
+  { ar: "مَاذَا قَالَ لَمَّا غَابَ الْقَمَرُ؟", en: "What did he say when the moon disappeared?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ فِي النَّهَارِ؟", en: "What did Ibrahim see in the daytime?" },
+  { ar: "مَاذَا قَالَ لَمَّا غَابَتِ الشَّمْسُ؟", en: "What did he say when the sun disappeared?" },
+  { ar: "هَلْ يَمُوتُ اللهُ؟", en: "Does Allah die?" },
+  { ar: "أَيْنَ الْحَيَاةُ الْحَقِيقِيَّةُ؟", en: "Where is true life?" },
+  { ar: "مَنْ خَالِقُ الْحَيَاةِ؟", en: "Who is the Creator of life?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L8 = [
+  { ar: "مَاذَا عَلِمَ إِبْرَاهِيمُ عَنِ اللهِ؟", en: "What did Ibrahim know about Allah?" },
+  { ar: "مَاذَا جَعَلَ اللهُ إِبْرَاهِيمَ؟", en: "What did Allah make Ibrahim?" },
+  { ar: "لِمَنْ أَرْسَلَ اللهُ إِبْرَاهِيمَ؟", en: "To whom did Allah send Ibrahim?" },
+  { ar: "مَنْ كَانَ حَوْلَ إِبْرَاهِيمَ؟", en: "Who was around Ibrahim?" },
+  { ar: "لِمَاذَا أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَهُمْ؟", en: "Why did Ibrahim want to call them?" },
+  { ar: "هَلْ أَحَبَّ إِبْرَاهِيمُ أَنْ يَرَى النَّاسَ فِي النَّارِ؟", en: "Did Ibrahim like to see the people in the Fire?" },
+  { ar: "بِمَاذَا أَمَرَ اللهُ إِبْرَاهِيمَ؟", en: "What did Allah command Ibrahim to do?" },
+  { ar: "مَاذَا فِي دَعْوَةِ اللهِ؟", en: "What is in Allah's call?" },
+  { ar: "مَاذَا لِلْمُؤْمِنِينَ عِنْدَ اللهِ؟", en: "What do the believers have with Allah?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L9 = [
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ فِي قَوْمِهِ؟", en: "What did Ibrahim see in his people?" },
+  { ar: "كَيْفَ دَعَا إِبْرَاهِيمُ قَوْمَهُ؟", en: "How did Ibrahim call his people?" },
+  { ar: "عَنْ مَاذَا نَهَاهُمْ؟", en: "What did he forbid them from?" },
+  { ar: "هَلْ خَافَ إِبْرَاهِيمُ؟", en: "Was Ibrahim afraid?" },
+  { ar: "مَاذَا لَا تَفْعَلُ الْأَصْنَامُ؟", en: "What do the idols not do?" },
+  { ar: "مَاذَا تَفْعَلُ الْأَصْنَامُ إِذَا مَرِضَ أَحَدٌ؟", en: "What do the idols do if someone becomes ill?" },
+  { ar: "مَا فَائِدَةُ الْأَصْنَامِ؟", en: "What is the benefit of the idols?" },
+  { ar: "مَنْ يَسْتَعْمِلُ الْأَحْجَارَ؟", en: "Who uses the stones?" },
+  { ar: "مَنْ ظَالِمٌ لِنَفْسِهِ؟", en: "Who wrongs himself?" },
+  { ar: "كَيْفَ كَانَ إِبْرَاهِيمُ؟", en: "How was Ibrahim?" },
+  { ar: "مَنْ كَانَ أَكْثَرَ عِلْمًا، إِبْرَاهِيمُ أَمْ وَالِدُهُ؟", en: "Who had more knowledge, Ibrahim or his father?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L10 = [
+  { ar: "مَنْ كَانَ فِي الْمَدِينَةِ؟", en: "Who was in the city?" },
+  { ar: "مَتَى كَانَ الْمَلِكُ يَظْلِمُ النَّاسَ؟", en: "When did the king wrong the people?" },
+  { ar: "لِمَنْ كَانَ النَّاسُ يَسْجُدُونَ؟", en: "To whom did the people prostrate?" },
+  { ar: "مَاذَا سَمِعَ الْمَلِكُ عَنْ إِبْرَاهِيمَ؟", en: "What did the king hear about Ibrahim?" },
+  { ar: "مَاذَا فَعَلَ الْمَلِكُ لَمَّا غَضِبَ؟", en: "What did the king do when he became angry?" },
+  { ar: "هَلْ خَافَ إِبْرَاهِيمُ أَمَامَ الْمَلِكِ؟", en: "Was Ibrahim afraid before the king?" },
+  { ar: "مَنْ رَبُّ إِبْرَاهِيمَ حَسَبَ كَلَامِهِ؟", en: "Who is Ibrahim's Lord according to his words?" },
+  { ar: "مَاذَا قَالَ الْمَلِكُ عَنْ نَفْسِهِ؟", en: "What did the king say about himself?" },
+  { ar: "مَاذَا طَلَبَ إِبْرَاهِيمُ مِنَ الْمَلِكِ؟", en: "What did Ibrahim ask of the king?" },
+  { ar: "مَنْ لَا يَهْدِيهِ اللهُ؟", en: "Whom does Allah not guide?" },
+  { ar: "مَاذَا اتَّخَذَ الْمَلِكُ إِبْرَاهِيمَ؟", en: "What did the king take Ibrahim as?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L11 = [
+  { ar: "مَنْ أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ أَيْضًا؟", en: "Whom else did Ibrahim want to call?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ فِي أَبِيهِ؟", en: "What did Ibrahim see in his father?" },
+  { ar: "مَاذَا قَالَ إِبْرَاهِيمُ لِأَبِيهِ؟", en: "What did Ibrahim say to his father?" },
+  { ar: "مَنْ يَجِبُ أَنْ يُعْبَدَ؟", en: "Who should be worshipped?" },
+  { ar: "هَلْ لِلَّهِ زَوْجٌ أَوْ وَلَدٌ؟", en: "Does Allah have a wife or child?" },
+  { ar: "مَاذَا أَمَرَ آزَرُ ابْنَهُ؟", en: "What did Azar command his son?" },
+  { ar: "مَاذَا اتَّخَذَ آزَرُ إِبْرَاهِيمَ؟", en: "What did Azar take Ibrahim as?" },
+  { ar: "لِمَاذَا حَزِنَ إِبْرَاهِيمُ؟", en: "Why did Ibrahim grieve?" },
+  { ar: "مَاذَا أَرَادَ إِبْرَاهِيمُ أَنْ يَفْعَلَ بَعْدَ ذَلِكَ؟", en: "What did Ibrahim want to do after that?" },
+  { ar: "أَيْنَ أَرَادَ إِبْرَاهِيمُ أَنْ يَدْعُوَ النَّاسَ؟", en: "Where did Ibrahim want to call the people?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L12 = [
+  { ar: "أَيْنَ أَرَادَ إِبْرَاهِيمُ أَنْ يُسَافِرَ؟", en: "Where did Ibrahim want to travel?" },
+  { ar: "مَعَ مَنْ سَافَرَ إِبْرَاهِيمُ إِلَى مَكَّةَ؟", en: "With whom did Ibrahim travel to Makkah?" },
+  { ar: "كَيْفَ كَانَتْ مَكَّةُ فِي ذَلِكَ الْوَقْتِ؟", en: "How was Makkah at that time?" },
+  { ar: "مَنْ تَرَكَ إِبْرَاهِيمُ فِي مَكَّةَ؟", en: "Whom did Ibrahim leave in Makkah?" },
+  { ar: "مَاذَا سَأَلَتْ هَاجَرُ إِبْرَاهِيمَ؟", en: "What did Hajar ask Ibrahim?" },
+  { ar: "مَاذَا أَجَابَ إِبْرَاهِيمُ؟", en: "What did Ibrahim answer?" },
+  { ar: "مَاذَا قَالَتْ هَاجَرُ بَعْدَ جَوَابِ إِبْرَاهِيمَ؟", en: "What did Hajar say after Ibrahim's answer?" },
+  { ar: "كَيْفَ كَانَتْ هَاجَرُ فِي تَوَكُّلِهَا؟", en: "How was Hajar in her reliance?" },
+  { ar: "مَعَ مَنِ اللهُ حَسَبَ يَقِينِ هَاجَرَ؟", en: "Who is Allah with, according to Hajar's certainty?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L13 = [
+  { ar: "مَاذَا حَدَثَ لِإِسْمَاعِيلَ؟", en: "What happened to Isma'il?" },
+  { ar: "مَاذَا أَرَادَتْ هَاجَرُ أَنْ تَفْعَلَ؟", en: "What did Hajar want to do?" },
+  { ar: "أَيْنَ جَرَتْ هَاجَرُ؟", en: "Where did Hajar run?" },
+  { ar: "كَمْ مَرَّةً رَجَعَتْ هَاجَرُ بَيْنَ الصَّفَا وَالْمَرْوَةِ؟", en: "How many times did Hajar go between Safa and Marwah?" },
+  { ar: "هَلْ تَرَكَتْ هَاجَرُ الطَّلَبَ؟", en: "Did Hajar give up the search?" },
+  { ar: "مَاذَا وَهَبَ اللهُ لِهَاجَرَ؟", en: "What did Allah gift Hajar?" },
+  { ar: "مَاذَا صَارَ الْمَاءُ؟", en: "What did the water become?" },
+  { ar: "كَيْفَ بَارَكَ اللهُ فِي زَمْزَمَ؟", en: "How did Allah bless Zamzam?" },
+  { ar: "مَنْ يَشْرَبُ مِنْ بِئْرِ زَمْزَمَ الْيَوْمَ؟", en: "Who drinks from the well of Zamzam today?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L14 = [
+  { ar: "مَتَى عَادَ إِبْرَاهِيمُ إِلَى مَكَّةَ؟", en: "When did Ibrahim return to Makkah?" },
+  { ar: "مَاذَا رَأَى إِبْرَاهِيمُ فِي الْمَنَامِ؟", en: "What did Ibrahim see in the dream?" },
+  { ar: "مِمَّنْ كَانَ هَذَا الْوَحْيُ؟", en: "From whom was this revelation?" },
+  { ar: "مَاذَا قَالَ إِبْرَاهِيمُ لِإِسْمَاعِيلَ؟", en: "What did Ibrahim say to Isma'il?" },
+  { ar: "كَيْفَ أَجَابَ إِسْمَاعِيلُ أَبَاهُ؟", en: "How did Isma'il answer his father?" },
+  { ar: "هَلْ أَطَاعَ إِسْمَاعِيلُ أَبَاهُ؟", en: "Did Isma'il obey his father?" },
+  { ar: "مَاذَا أَرَادَ اللهُ أَنْ يَفْعَلَ بِإِبْرَاهِيمَ؟", en: "What did Allah want to do to Ibrahim?" },
+  { ar: "هَلْ ذَبَحَ إِبْرَاهِيمُ إِسْمَاعِيلَ؟", en: "Did Ibrahim sacrifice Isma'il?" },
+  { ar: "مَاذَا أَرْسَلَ اللهُ بَدَلًا مِنِ ابْنِهِ؟", en: "What did Allah send instead of his son?" },
+  { ar: "مَاذَا أَمَرَ اللهُ الْمُسْلِمِينَ بَعْدَ ذَلِكَ؟", en: "What did Allah command the Muslims after that?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L15 = [
+  { ar: "أَيْنَ جَاءَ إِبْرَاهِيمُ وَإِسْمَاعِيلُ؟", en: "Where did Ibrahim and Isma'il come?" },
+  { ar: "مَاذَا رَفَعَا بِيَدَيْهِمَا؟", en: "What did they raise with their hands?" },
+  { ar: "مَاذَا نَقَلَا وَبَنَيَا؟", en: "What did they carry and build?" },
+  { ar: "مَاذَا كَانَا يَقُولَانِ عِنْدَ الْبِنَاءِ؟", en: "What did they say during the building?" },
+  { ar: "مَاذَا دَعَا إِبْرَاهِيمُ بَعْدَ الْبِنَاءِ؟", en: "What did Ibrahim pray after the building?" },
+  { ar: "مَاذَا سَأَلَ إِبْرَاهِيمُ رَبَّهُ لِذُرِّيَّتِهِ؟", en: "What did Ibrahim ask his Lord for his descendants?" },
+  { ar: "مَاذَا يَفْعَلُ الْمُسْلِمُونَ الْيَوْمَ عِنْدَ الْكَعْبَةِ؟", en: "What do the Muslims do today at the Kaaba?" }
+];
+
+export const COMPREHENSION_QUESTIONS_L16 = [
+  { ar: "مَنْ بَنَى بَيْتًا لِلَّهِ فِي الشَّامِ؟", en: "Who built a house for Allah in Sham?" },
+  { ar: "مَا اسْمُ هَذَا الْبَيْتِ؟", en: "What is the name of this house?" },
+  { ar: "مَنِ ابْنُ إِسْحَاقَ؟", en: "Who is the son of Ishaq?" },
+  { ar: "كَمْ وَلَدًا كَانَ لِيَعْقُوبَ؟", en: "How many sons did Ya'qub have?" },
+  { ar: "مَاذَا جَعَلَ اللهُ فِي كُلِّ قَرْنٍ مِنْ ذُرِّيَّةِ إِبْرَاهِيمَ؟", en: "What did Allah place in every generation of Ibrahim's descendants?" },
+  { ar: "مَنْ كَانَ مِنَ الْأَنْبِيَاءِ فِي أَوْلَادِ يَعْقُوبَ؟", en: "Who was among the prophets among Ya'qub's sons?" },
+  { ar: "أَيْنَ جَعَلَ اللهُ قِصَّةَ يُوسُفَ؟", en: "Where did Allah place the story of Yusuf?" },
+  { ar: "مَا دَرْسُنَا الْقَادِمُ؟", en: "What is our next lesson?" }
+];
+
 export const PLURAL_TYPE_QUESTIONS = [
   // Irregular & Non-human (10)
   { ar: "أَقْلَام", en: "pens", regular: false, human: false },
@@ -2127,6 +2252,186 @@ export const CHALLENGE_1_WORDS_L6 = [
   { ar: "أَكْبَر", en: "greater/greatest" }
 ];
 
+export const CHALLENGE_1_WORDS_L7 = [
+  { ar: "قَوْم", en: "people/nation" },
+  { ar: "كَوْكَب", en: "star/planet" },
+  { ar: "شَمْس", en: "sun" },
+  { ar: "قَمَر", en: "moon" },
+  { ar: "خَلَقَ", en: "created" },
+  { ar: "آيَة", en: "sign/verse" },
+  { ar: "سَمَاء", en: "sky/heaven" },
+  { ar: "غَابَ", en: "disappeared/set" },
+  { ar: "لَيْل", en: "night" },
+  { ar: "ضَعِيف", en: "weak" },
+  { ar: "نَهَار", en: "daytime" },
+  { ar: "حَيّ", en: "alive/living" },
+  { ar: "قَوِيّ", en: "strong" },
+  { ar: "خَالِق", en: "Creator" },
+  { ar: "مُؤْمِن", en: "believer" }
+];
+
+export const CHALLENGE_1_WORDS_L8 = [
+  { ar: "جَعَلَ", en: "made/placed" },
+  { ar: "نَبِيّ", en: "prophet" },
+  { ar: "رَسُول", en: "messenger" },
+  { ar: "خَلِيل", en: "close friend/beloved" },
+  { ar: "أَرْسَلَ", en: "sent" },
+  { ar: "رَحْمَة", en: "mercy" },
+  { ar: "كِتَاب", en: "book" },
+  { ar: "أَهْل", en: "people/family" },
+  { ar: "حِكْمَة", en: "wisdom" },
+  { ar: "دَعْوَة", en: "call/invitation" },
+  { ar: "بَرَكَة", en: "blessing" },
+  { ar: "عَذَاب", en: "punishment/torment" },
+  { ar: "عَلِيم", en: "all-knowing" },
+  { ar: "أَجْر", en: "reward" },
+  { ar: "أَصْحَاب", en: "companions" }
+];
+
+export const CHALLENGE_1_WORDS_L9 = [
+  { ar: "نَظَرَ", en: "looked" },
+  { ar: "أَخ", en: "brother" },
+  { ar: "نَهَى", en: "forbade" },
+  { ar: "خَافَ", en: "feared" },
+  { ar: "شَجَاعَة", en: "courage" },
+  { ar: "أَطْعَمَ", en: "fed" },
+  { ar: "شَفَى", en: "healed" },
+  { ar: "فَائِدَة", en: "benefit/use" },
+  { ar: "شَيْطَان", en: "devil/Satan" },
+  { ar: "ظَالِم", en: "oppressor/wrongdoer" },
+  { ar: "حَكِيم", en: "wise" },
+  { ar: "عَقْل", en: "mind/intellect" },
+  { ar: "أَكْثَر", en: "more/most" },
+  { ar: "أَصْغَر", en: "smaller/youngest" },
+  { ar: "مَال", en: "wealth/money" }
+];
+
+export const CHALLENGE_1_WORDS_L10 = [
+  { ar: "مَدِينَة", en: "city" },
+  { ar: "لَدَى", en: "at/with" },
+  { ar: "كَذَبَ", en: "lied" },
+  { ar: "أَخَذَ", en: "took" },
+  { ar: "جَوَاب", en: "answer" },
+  { ar: "سِوَى", en: "other than/except" },
+  { ar: "رَجَا", en: "hoped" },
+  { ar: "تَوَكَّلَ", en: "relied upon (God)" },
+  { ar: "اِتَّقَى", en: "feared (God)/was pious" },
+  { ar: "اِتَّبَعَ", en: "followed" },
+  { ar: "سَبَب", en: "reason/cause" },
+  { ar: "كَافِر", en: "disbeliever" },
+  { ar: "فَاسِد", en: "corrupt" },
+  { ar: "قَلْب", en: "heart" },
+  { ar: "رَدَّ", en: "replied/returned" }
+];
+
+export const CHALLENGE_1_WORDS_L11 = [
+  { ar: "أَتَى", en: "came" },
+  { ar: "جَلَسَ", en: "sat" },
+  { ar: "صَاحِب", en: "companion/friend" },
+  { ar: "زَمَان", en: "time/era" },
+  { ar: "طَوِيل", en: "long" },
+  { ar: "زَوْج", en: "husband/wife/pair" },
+  { ar: "شَرِيك", en: "partner" },
+  { ar: "يَد", en: "hand" },
+  { ar: "نُور", en: "light" },
+  { ar: "اِبْن", en: "son" },
+  { ar: "طَرِيق", en: "road/path" },
+  { ar: "حَبِيب", en: "beloved" },
+  { ar: "هَاجَرَ", en: "migrated" },
+  { ar: "بَلَد", en: "country/city" },
+  { ar: "صَلَاة", en: "prayer" }
+];
+
+export const CHALLENGE_1_WORDS_L12 = [
+  { ar: "قَدْ", en: "indeed/already" },
+  { ar: "بَاطِل", en: "falsehood/vain" },
+  { ar: "رَضِيَ", en: "was pleased" },
+  { ar: "خَسَارَة", en: "loss" },
+  { ar: "سَافَرَ", en: "travelled" },
+  { ar: "زَوْجَة", en: "wife" },
+  { ar: "وَقْت", en: "time" },
+  { ar: "خَارِج", en: "outside" },
+  { ar: "شَجَر", en: "tree/trees" },
+  { ar: "مَاء", en: "water" },
+  { ar: "عَاشَ", en: "lived" },
+  { ar: "وَصَلَ", en: "arrived/reached" },
+  { ar: "طَعَام", en: "food" },
+  { ar: "ضَيَّعَ", en: "wasted/lost" },
+  { ar: "أَيْقَنَ", en: "was certain" }
+];
+
+export const CHALLENGE_1_WORDS_L13 = [
+  { ar: "بَكَى", en: "cried" },
+  { ar: "بِئْر", en: "well" },
+  { ar: "نَهْر", en: "river" },
+  { ar: "جَافّ", en: "dry" },
+  { ar: "حَارّ", en: "hot" },
+  { ar: "قَامَ", en: "stood/rose" },
+  { ar: "جَرَى", en: "ran/flowed" },
+  { ar: "تَأَلَّمَ", en: "suffered/was in pain" },
+  { ar: "اِمْرَأَة", en: "woman" },
+  { ar: "صَادِق", en: "truthful" },
+  { ar: "هَدِيَّة", en: "gift" },
+  { ar: "شَرِبَ", en: "drank" },
+  { ar: "صَارَ", en: "became" },
+  { ar: "بَارَكَ", en: "blessed" },
+  { ar: "أَعْطَى", en: "gave" }
+];
+
+export const CHALLENGE_1_WORDS_L14 = [
+  { ar: "عَادَ", en: "returned" },
+  { ar: "حِين", en: "when/time" },
+  { ar: "لَقِيَ", en: "met" },
+  { ar: "غُلَام", en: "youth/boy" },
+  { ar: "لَعِبَ", en: "played" },
+  { ar: "نِعْمَة", en: "blessing/favour" },
+  { ar: "لَيْلَة", en: "night" },
+  { ar: "مَنَام", en: "dream/sleep" },
+  { ar: "وَحْي", en: "revelation" },
+  { ar: "أَطَاعَ", en: "obeyed" },
+  { ar: "وَجْه", en: "face" },
+  { ar: "بَلَغَ", en: "reached/attained" },
+  { ar: "نَجَحَ", en: "succeeded" },
+  { ar: "شَاة", en: "sheep" },
+  { ar: "رَفَعَ", en: "raised" }
+];
+
+export const CHALLENGE_1_WORDS_L15 = [
+  { ar: "بَنَى", en: "built" },
+  { ar: "مَكَان", en: "place" },
+  { ar: "أَسَاس", en: "foundation" },
+  { ar: "نَقَلَ", en: "transferred/carried" },
+  { ar: "كَعْبَة", en: "the Kaaba" },
+  { ar: "سَبَّحَ", en: "glorified" },
+  { ar: "حَمِدَ", en: "praised" },
+  { ar: "دُعَاء", en: "supplication" },
+  { ar: "أَوَّل", en: "first" },
+  { ar: "كَرِيم", en: "generous/noble" },
+  { ar: "نَادَى", en: "called out" },
+  { ar: "قَرِيب", en: "near" },
+  { ar: "دَار", en: "house/abode" },
+  { ar: "صِرَاط", en: "path/way" },
+  { ar: "قِبْلَة", en: "direction of prayer" }
+];
+
+export const CHALLENGE_1_WORDS_L16 = [
+  { ar: "أُخْرَى", en: "other (f)" },
+  { ar: "صَالِح", en: "righteous" },
+  { ar: "مُطِيع", en: "obedient" },
+  { ar: "ذُرِّيَّة", en: "offspring/descendants" },
+  { ar: "عَاقِبَة", en: "outcome/consequence" },
+  { ar: "كَلَّمَ", en: "spoke to" },
+  { ar: "مَسْجِد", en: "mosque" },
+  { ar: "أَقْصَى", en: "farthest" },
+  { ar: "مُقَدَّس", en: "holy/sacred" },
+  { ar: "بَعَثَ", en: "sent/resurrected" },
+  { ar: "أُمَّة", en: "nation/community" },
+  { ar: "قَرْن", en: "century/generation" },
+  { ar: "فَرِيق", en: "group/team" },
+  { ar: "قِصَّة", en: "story" },
+  { ar: "قُرْآن", en: "Quran" }
+];
+
 export const SUFFIX_TRANSLATION_QUESTIONS = [
   { en: "the men, their idols are many", ar: "الرجال أصنامهم كثيرة" },
   { en: "the people, their village is big", ar: "الناس قريتهم كبيرة" },
@@ -2190,6 +2495,128 @@ export const TRANSLATION_1_QUESTIONS = [
   { ar: "لِمَاذَا يَسْكُنُ هَذَا الْمُشْرِكُ فِي قُرًى كَثِيرَةٍ؟", en: "Why does this polytheist live in many villages?" },
   { ar: "كَانَ هَؤُلَاءِ النَّاسُ يَسْجُدُونَ لِأَصْنَامٍ كَثِيرَةٍ أَيْضًا.", en: "These people were prostrating to many idols also." },
   { ar: "عَبَدَ هَذَا الرَّجُلُ هَذَا الْمُشْرِكَ قَبْلَ أَيَّامٍ.", en: "This man worshipped this polytheist days ago." }
+];
+
+export const CHALLENGE_2_SENTENCES_L7 = [
+  { en: "Salim walked in the night.", ar: "مَشَى سَالِمٌ فِي اللَّيْلِ." },
+  { en: "The sign indicated the Creator.", ar: "دَلَّتِ الْآيَةُ عَلَى الْخَالِقِ." },
+  { en: "The moon disappeared in the morning.", ar: "غَابَ الْقَمَرُ فِي الصُّبْحِ." },
+  { en: "Allah created the sky and the earth.", ar: "خَلَقَ اللهُ السَّمَاءَ وَالْأَرْضَ." },
+  { en: "Salim is alive, he does not die.", ar: "سَالِمٌ حَيٌّ لَا يَمُوتُ." },
+  { en: "Allah is strong, He cannot be overcome.", ar: "اللهُ قَوِيٌّ لَا يُغْلَبُ." },
+  { en: "True life is with the believers.", ar: "الْحَيَاةُ الْحَقِيقِيَّةُ مَعَ الْمُؤْمِنِينَ." },
+  { en: "Salim is weak in the daytime.", ar: "سَالِمٌ ضَعِيفٌ فِي النَّهَارِ." },
+  { en: "How many stars are in the sky?", ar: "كَمْ كَوْكَبًا فِي السَّمَاءِ؟" },
+  { en: "Where is the strong creature?", ar: "أَيْنَ الْمَخْلُوقُ الْقَوِيُّ؟" },
+  { en: "When did the sun disappear?", ar: "مَتَى غَابَتِ الشَّمْسُ؟" },
+  { en: "The Helper of the believers is strong.", ar: "نَاصِرُ الْمُؤْمِنِينَ قَوِيٌّ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L8 = [
+  { en: "Allah made Salim a doer of good.", ar: "جَعَلَ اللهُ سَالِمًا مُحْسِنًا." },
+  { en: "Allah sent a mercy to the people.", ar: "أَرْسَلَ اللهُ رَحْمَةً لِلنَّاسِ." },
+  { en: "Allah gave Salim a book.", ar: "آتَى اللهُ سَالِمًا كِتَابًا." },
+  { en: "Salim is among the companions.", ar: "سَالِمٌ مِنَ الْأَصْحَابِ." },
+  { en: "In Allah's call is good and blessing.", ar: "فِي دَعْوَةِ اللهِ خَيْرٌ وَبَرَكَةٌ." },
+  { en: "Allah is All-Knowing of those who do good.", ar: "اللهُ عَلِيمٌ بِالْمُحْسِنِينَ." },
+  { en: "For the believers is a reward with Allah.", ar: "لِلْمُؤْمِنِينَ أَجْرٌ عِنْدَ اللهِ." },
+  { en: "Salim possesses wisdom.", ar: "سَالِمٌ ذُو حِكْمَةٍ." },
+  { en: "In the book is a path to the truth.", ar: "فِي الْكِتَابِ سَبِيلٌ إِلَى الْحَقِّ." },
+  { en: "There is no escaping the call.", ar: "لَا بُدَّ مِنَ الدَّعْوَةِ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L9 = [
+  { en: "Salim looked at his brother.", ar: "نَظَرَ سَالِمٌ إِلَى أَخِيهِ." },
+  { en: "Salim fears none but Allah.", ar: "لَا يَخَافُ سَالِمٌ إِلَّا اللهَ." },
+  { en: "Salim fed his brother.", ar: "أَطْعَمَ سَالِمٌ أَخَاهُ." },
+  { en: "Salim gave someone water.", ar: "سَقَى سَالِمٌ أَحَدًا." },
+  { en: "There is no benefit in Satan.", ar: "لَا فَائِدَةَ فِي الشَّيْطَانِ." },
+  { en: "Salim has more intellect than his brother.", ar: "سَالِمٌ أَكْثَرُ عَقْلًا مِنْ أَخِيهِ." },
+  { en: "The wrongdoer wrongs himself.", ar: "الظَّالِمُ يَظْلِمُ نَفْسَهُ." },
+  { en: "Salim is wise, possessing wealth.", ar: "سَالِمٌ حَكِيمٌ يَمْلِكُ مَالًا." },
+  { en: "Salim remembered his younger brother.", ar: "ذَكَرَ سَالِمٌ أَخَاهُ الْأَصْغَرَ." },
+  { en: "Indeed the wise one is a possessor of intellect.", ar: "إِنَّمَا الْحَكِيمُ ذُو عَقْلٍ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L10 = [
+  { en: "Salim relied upon Allah.", ar: "تَوَكَّلَ سَالِمٌ عَلَى اللهِ." },
+  { en: "Salim feared his Lord.", ar: "اِتَّقَى سَالِمٌ رَبَّهُ." },
+  { en: "Salim followed the truth.", ar: "اِتَّبَعَ سَالِمٌ الْحَقَّ." },
+  { en: "Salim did not lie.", ar: "لَمْ يَكْذِبْ سَالِمٌ." },
+  { en: "The disbeliever's heart is corrupt.", ar: "الْكَافِرُ قَلْبُهُ فَاسِدٌ." },
+  { en: "Salim gave an answer.", ar: "رَدَّ سَالِمٌ جَوَابًا." },
+  { en: "Salim thought that to be far.", ar: "ظَنَّ سَالِمٌ ذَلِكَ بَعِيدًا." },
+  { en: "Salim does not turn away from the truth.", ar: "لَا يَتَوَلَّى سَالِمٌ عَنِ الْحَقِّ." },
+  { en: "In the city is a corrupt man.", ar: "فِي الْمَدِينَةِ رَجُلٌ فَاسِدٌ." },
+  { en: "Allah sent down a book.", ar: "أَنْزَلَ اللهُ كِتَابًا." }
+];
+
+export const CHALLENGE_2_SENTENCES_L11 = [
+  { en: "Salim sat with his companion.", ar: "جَلَسَ سَالِمٌ مَعَ صَاحِبِهِ." },
+  { en: "Salim migrated to another land.", ar: "هَاجَرَ سَالِمٌ إِلَى بَلَدٍ آخَرَ." },
+  { en: "Salim established the prayer.", ar: "أَقَامَ سَالِمٌ الصَّلَاةَ." },
+  { en: "Allah brought Salim out of darkness into light.", ar: "أَخْرَجَ اللهُ سَالِمًا مِنَ الظُّلْمَةِ إِلَى النُّورِ." },
+  { en: "Allah has no partner.", ar: "لَيْسَ لِلَّهِ شَرِيكٌ." },
+  { en: "Salim is beloved to his brother.", ar: "سَالِمٌ حَبِيبٌ إِلَى أَخِيهِ." },
+  { en: "The long road ended.", ar: "اِنْتَهَى الطَّرِيقُ الطَّوِيلُ." },
+  { en: "Since a long time, Salim has lived here.", ar: "مُنْذُ زَمَانٍ طَوِيلٍ، سَكَنَ سَالِمٌ هُنَا." },
+  { en: "Allah is merciful to those who were patient.", ar: "اللهُ رَحِيمٌ بِأُولَئِكَ الَّذِينَ صَبَرُوا." },
+  { en: "Salim took his brother as a companion.", ar: "اِتَّخَذَ سَالِمٌ أَخَاهُ صَاحِبًا." }
+];
+
+export const CHALLENGE_2_SENTENCES_L12 = [
+  { en: "Salim traveled to a land outside the city.", ar: "سَافَرَ سَالِمٌ إِلَى بَلَدٍ خَارِجَ الْمَدِينَةِ." },
+  { en: "Salim lived by a tree and water.", ar: "عَاشَ سَالِمٌ عِنْدَ شَجَرٍ وَمَاءٍ." },
+  { en: "Salim arrived to his family.", ar: "وَصَلَ سَالِمٌ إِلَى أَهْلِهِ." },
+  { en: "Salim's wife was certain that Allah was with her.", ar: "أَيْقَنَتْ زَوْجَةُ سَالِمٍ أَنَّ اللهَ مَعَهَا." },
+  { en: "Allah was pleased with the believers.", ar: "رَضِيَ اللهُ عَنِ الْمُؤْمِنِينَ." },
+  { en: "Falsehood is a loss.", ar: "الْبَاطِلُ خَسَارَةٌ." },
+  { en: "Allah did not let Salim be lost.", ar: "لَمْ يُضَيِّعِ اللهُ سَالِمًا." },
+  { en: "The time for food has indeed come.", ar: "قَدْ جَاءَ وَقْتُ الطَّعَامِ." },
+  { en: "If only Salim had lived here.", ar: "لَيْتَ سَالِمًا عَاشَ هُنَا." }
+];
+
+export const CHALLENGE_2_SENTENCES_L13 = [
+  { en: "Salim cried at the well.", ar: "بَكَى سَالِمٌ عِنْدَ الْبِئْرِ." },
+  { en: "Salim ran to the river.", ar: "جَرَى سَالِمٌ إِلَى النَّهْرِ." },
+  { en: "The woman drank from the well.", ar: "شَرِبَتِ الْمَرْأَةُ مِنَ الْبِئْرِ." },
+  { en: "Allah blessed the river.", ar: "بَارَكَ اللهُ فِي النَّهْرِ." },
+  { en: "Salim gave a gift to his brother.", ar: "أَعْطَى سَالِمٌ هَدِيَّةً لِأَخِيهِ." },
+  { en: "The water became flowing.", ar: "صَارَ الْمَاءُ جَارِيًا." },
+  { en: "Salim is truthful in his speech.", ar: "سَالِمٌ صَادِقٌ فِي قَوْلِهِ." },
+  { en: "The day is hot and the ground is dry.", ar: "الْيَوْمُ حَارٌّ وَالْأَرْضُ جَافَّةٌ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L14 = [
+  { en: "Salim returned after a while.", ar: "عَادَ سَالِمٌ بَعْدَ حِينٍ." },
+  { en: "Salim met his companion.", ar: "لَقِيَ سَالِمٌ صَاحِبَهُ." },
+  { en: "The boy played at night.", ar: "لَعِبَ الْغُلَامُ فِي اللَّيْلَةِ." },
+  { en: "Salim saw a blessing in the dream.", ar: "رَأَى سَالِمٌ فِي الْمَنَامِ نِعْمَةً." },
+  { en: "The boy obeyed his father.", ar: "أَطَاعَ الْغُلَامُ أَبَاهُ." },
+  { en: "Salim attained a great success.", ar: "بَلَغَ سَالِمٌ نَجَاحًا عَظِيمًا." },
+  { en: "Salim succeeded in the test.", ar: "نَجَحَ سَالِمٌ فِي الِامْتِحَانِ." },
+  { en: "Salim raised his face to the sky.", ar: "رَفَعَ سَالِمٌ وَجْهَهُ إِلَى السَّمَاءِ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L15 = [
+  { en: "Salim built a house.", ar: "بَنَى سَالِمٌ دَارًا." },
+  { en: "Salim glorified Allah and praised Him.", ar: "سَبَّحَ سَالِمٌ اللهَ وَحَمِدَهُ." },
+  { en: "Allah increased Salim in faith.", ar: "زَادَ اللهُ سَالِمًا إِيمَانًا." },
+  { en: "Allah accepted Salim's supplication.", ar: "تَقَبَّلَ اللهُ دُعَاءَ سَالِمٍ." },
+  { en: "Allah is near to those who call upon Him.", ar: "اللهُ قَرِيبٌ مِنَ الَّذِينَ يَدْعُونَهُ." },
+  { en: "The straight path is the path of the believers.", ar: "الصِّرَاطُ الْمُسْتَقِيمُ طَرِيقُ الْمُؤْمِنِينَ." },
+  { en: "Salim called out to his brother.", ar: "نَادَى سَالِمٌ أَخَاهُ." },
+  { en: "Allah purified Salim's heart.", ar: "طَهَّرَ اللهُ قَلْبَ سَالِمٍ." }
+];
+
+export const CHALLENGE_2_SENTENCES_L16 = [
+  { en: "Salim was righteous and obedient.", ar: "كَانَ سَالِمٌ صَالِحًا مُطِيعًا." },
+  { en: "Salim read the Quran in the mosque.", ar: "قَرَأَ سَالِمٌ الْقُرْآنَ فِي الْمَسْجِدِ." },
+  { en: "Salim studied an amazing story.", ar: "دَرَسَ سَالِمٌ قِصَّةً عَجِيبَةً." },
+  { en: "Allah sent a prophet in every generation.", ar: "بَعَثَ اللهُ نَبِيًّا فِي كُلِّ قَرْنٍ." },
+  { en: "Allah admitted Salim into the group of the righteous.", ar: "أَدْخَلَ اللهُ سَالِمًا فِي فَرِيقِ الصَّالِحِينَ." },
+  { en: "The outcome of the righteous is good.", ar: "عَاقِبَةُ الصَّالِحِينَ خَيْرٌ." },
+  { en: "Salim's descendants are a great nation.", ar: "ذُرِّيَّةُ سَالِمٍ أُمَّةٌ كَبِيرَةٌ." }
 ];
 
 export const CHALLENGE_2_SENTENCES = [
