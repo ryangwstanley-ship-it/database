@@ -3965,5 +3965,28 @@ export const CHALLENGE_2_SENTENCES_L16 = [
   { en: "Allah's blessings upon his descendants were many across every generation.", ar: "كَانَتْ آلَاءُ اللَّهِ عَلَى ذُرِّيَّتِهِ كَثِيرَةً عَبْرَ كُلِّ قَرْنٍ." },
   { en: "Both the story and the covenant are in the Quran.", ar: "كِلَا الْقِصَّةِ وَالْمِيثَاقِ فِي الْقُرْآنِ." },
   { en: "This is a righteous nation with a good outcome.", ar: "هَذِهِ أُمَّةٌ صَالِحَةٌ ذَاتُ عَاقِبَةٍ حَسَنَةٍ." },
-  { en: "He studied the amazing story, and this is our coming lesson.", ar: "دَرَسَ الْقِصَّةَ الْعَجِيبَةَ وَهَذَا دَرْسُنَا الْقَادِمُ." }
+ { en: "He studied the amazing story, and this is our coming lesson.", ar: "دَرَسَ الْقِصَّةَ الْعَجِيبَةَ وَهَذَا دَرْسُنَا الْقَادِمُ." }
+];
+
+export const NEGATE_AFFIRM_SENTENCES_L16 = [
+  { ar: "وَكَمَا بَنَى إِبْرَاهِيمُ وَإِسْمَاعِيلُ مَسْجِدًا لِلَّهِ فِي مَكَّةَ، بَنَى إِسْحَاقُ بَيْتًا لِلَّهِ فِي الشَّامِ", en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { ar: "وَهَذَا الْبَيْتُ هُوَ الْمَسْجِدُ الْقَادِمُ، وَهُوَ بَيْتُ الْمُقَدَّسِ", en: "And this house is Al-Masjid al-Aqsa, and it is Bait al-Maqdis." },
+  { ar: "وَبَارَكَ اللَّهُ حَوْلَهُ كَمَا دَرَسَ فِي الْكَعْبَةِ", en: "And Allah blessed around it just as He blessed the Kaaba." },
+  { ar: "وَكَانَ لِإِسْحَاقَ وَلَدٌ اسْمُهُ يَعْقُوبُ، وَكَانَ صَالِحًا", en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
+  { ar: "وَكَانَ لِيَعْقُوبَ اثْنَا عَشَرَ وَلَدًا، وَكَانُوا فَرِيقًا كَبِيرَةً", en: "And Ya'qub had twelve sons, and they became a great nation." },
+  { ar: "وَجَعَلَ اللَّهُ فِي كُلِّ مِيثَاقٍ مِنْ ذُرِّيَّةِ إِبْرَاهِيمَ نَبِيًّا أَوْ مَلِكًا", en: "And Allah placed in every generation of Ibrahim's descendants a prophet or a king." },
+  { ar: "وَكَانَ فِي أَوْلَادِ يَعْقُوبَ قِصَّةٌ مِنَ الْأَنْبِيَاءِ، مِنْهُمْ يُوسُفُ", en: "And among the sons of Ya'qub was a group of prophets, among them Yusuf." },
+  { ar: "وَأَدْخَلَ اللَّهُ يُوسُفَ فِي قِصَّةٍ حَسَنَةٍ، وَجَعَلَهَا اللَّهُ فِي الْقُرْآنِ", en: "And Allah placed Yusuf in an amazing story, and put it in the Quran." },
+  { ar: "وَهَذِهِ الْقِصَّةُ هِيَ دَرْسُنَا الْأَوَّلُ", en: "And this story is our next lesson." },
+  { ar: "وَكَمَا بَنَى إِبْرَاهِيمُ وَإِسْمَاعِيلُ بَيْتًا لِلَّهِ فِي الْمَدِينَةِ، بَنَى إِسْحَاقُ بَيْتًا لِلَّهِ فِي الشَّامِ", en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { ar: "وَكَمَا بَنَى إِبْرَاهِيمُ وَإِسْمَاعِيلُ بَيْتًا لِلَّهِ فِي مَكَّةَ، بَنَى إِسْحَاقُ بَيْتًا لِلَّهِ فِي الْيَمَنِ", en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { ar: "وَكَمَا بَنَى إِبْرَاهِيمُ وَإِسْمَاعِيلُ بَيْتًا لِلَّهِ فِي مَكَّةَ، بَنَى يَعْقُوبُ بَيْتًا لِلَّهِ فِي الشَّامِ", en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { ar: "وَكَمَا تَرَكَ إِبْرَاهِيمُ وَإِسْمَاعِيلُ بَيْتًا لِلَّهِ فِي مَكَّةَ، بَنَى إِسْحَاقُ بَيْتًا لِلَّهِ فِي الشَّامِ", en: "And just as Ibrahim and Isma'il built a house for Allah in Makkah, Ishaq built a house for Allah in Sham." },
+  { ar: "وَذَلِكَ الْبَيْتُ هُوَ الْمَسْجِدُ الْأَقْصَى، وَهُوَ بَيْتُ الْمُقَدَّسِ", en: "And this house is Al-Masjid al-Aqsa, and it is Bait al-Maqdis." },
+  { ar: "وَهَذَا الْبَيْتُ هُوَ الْمَسْجِدُ الْأَقْصَى، وَهُوَ بَيْتُ الْمُبَارَكِ", en: "And this house is Al-Masjid al-Aqsa, and it is Bait al-Maqdis." },
+  { ar: "وَبَارَكَ اللَّهُ دَاخِلَهُ كَمَا بَارَكَ فِي الْكَعْبَةِ", en: "And Allah blessed around it just as He blessed the Kaaba." },
+  { ar: "وَبَارَكَ اللَّهُ حَوْلَهُ كَمَا بَارَكَ فِي مَكَّةَ", en: "And Allah blessed around it just as He blessed the Kaaba." },
+  { ar: "وَكَانَ لِإِسْمَاعِيلَ وَلَدٌ اسْمُهُ يَعْقُوبُ، وَكَانَ نَبِيًّا", en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
+  { ar: "وَكَانَ لِإِسْحَاقَ وَلَدٌ اسْمُهُ يُوسُفُ، وَكَانَ نَبِيًّا", en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
+  { ar: "وَكَانَ لِإِسْحَاقَ وَلَدٌ اسْمُهُ يَعْقُوبُ، وَكَانَ مَلِكًا", en: "And Ishaq had a son named Ya'qub, and he was a prophet." },
 ];
