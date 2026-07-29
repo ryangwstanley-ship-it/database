@@ -3455,6 +3455,99 @@ export const PASSIVE_VERB_QUESTIONS = [
   { active: "يَتْرُكُ", meaning: "he leaves", ar: "يُتْرَكُ" }
 ];
 
+export const DOER_DONETO_QUESTIONS = [
+  { active: "خَالِقٌ", meaning: "the creator", ar: "مَخْلُوقٌ" },
+  { active: "مَخْلُوقٌ", meaning: "the created thing", ar: "خَالِقٌ" },
+  { active: "نَاصِرٌ", meaning: "the helper", ar: "مَنْصُورٌ" },
+  { active: "مَنْصُورٌ", meaning: "the one who is helped", ar: "نَاصِرٌ" },
+  { active: "عَالِمٌ", meaning: "the knower", ar: "مَعْلُومٌ" },
+  { active: "مَعْلُومٌ", meaning: "the known thing", ar: "عَالِمٌ" },
+  { active: "مُؤْمِنٌ", meaning: "the believer", ar: "مُؤْمَنٌ" },
+  { active: "مُؤْمَنٌ", meaning: "the one believed in", ar: "مُؤْمِنٌ" },
+  { active: "كَاسِرٌ", meaning: "the breaker", ar: "مَكْسُورٌ" },
+  { active: "مَكْسُورٌ", meaning: "the broken thing", ar: "كَاسِرٌ" }
+];
+
+export const SUPERLATIVE_QUESTIONS = [
+  { active: "كَبِيرٌ", meaning: "big → biggest", ar: "أَكْبَرُ" },
+  { active: "صَغِيرٌ", meaning: "small → smallest", ar: "أَصْغَرُ" },
+  { active: "كَثِيرٌ", meaning: "much → most", ar: "أَكْثَرُ" },
+  { active: "قَلِيلٌ", meaning: "little → least", ar: "أَقَلُّ" },
+  { active: "حَسَنٌ", meaning: "good → best", ar: "أَحْسَنُ" },
+  { active: "عَظِيمٌ", meaning: "great → greatest", ar: "أَعْظَمُ" },
+  { active: "قَوِيٌّ", meaning: "strong → strongest", ar: "أَقْوَى" },
+  { active: "ضَعِيفٌ", meaning: "weak → weakest", ar: "أَضْعَفُ" }
+];
+
+export const IDAFA_TRANSLATION_QUESTIONS = [
+  { en: "the house of Allah", ar: "بيت الله" },
+  { en: "the call to monotheism", ar: "دعوة التوحيد" },
+  { en: "a student of knowledge", ar: "طالب علم" },
+  { en: "the work of Satan", ar: "عمل الشيطان" },
+  { en: "the Lord of the worlds", ar: "رب العالمين" },
+  { en: "the people of Paradise", ar: "أهل الجنة" },
+  { en: "the day of Eid", ar: "يوم العيد" },
+  { en: "the books of the prophets", ar: "كتب الأنبياء" },
+  { en: "the punishment of Hell", ar: "عذاب جهنم" },
+  { en: "the path of Allah", ar: "سبيل الله" }
+];
+
+export const VERBAL_NOUN_QUESTIONS = [
+  { active: "خَلَقَ", meaning: "he created → creation", ar: "خَلْقٌ" },
+  { active: "عَبَدَ", meaning: "he worshipped → worship", ar: "عِبَادَةٌ" },
+  { active: "دَعَا", meaning: "he called/invited → a call", ar: "دَعْوَةٌ" },
+  { active: "نَصَرَ", meaning: "he helped → help/victory", ar: "نَصْرٌ" },
+  { active: "ذَكَرَ", meaning: "he remembered/mentioned → remembrance", ar: "ذِكْرٌ" }
+];
+
+export const ADVERBIAL_TRANSLATION_QUESTIONS = [
+  { en: "Ibrahim came happily.", ar: "جاء إبراهيم فرحا" },
+  { en: "He left afraid.", ar: "خرج خائفا" },
+  { en: "He found him safe.", ar: "وجده سالما" },
+  { en: "He returned a loser.", ar: "رجع خاسرا" },
+  { en: "He became intensely angry.", ar: "غضب غضبا شديدا" },
+  { en: "Increase me in knowledge.", ar: "زدني علما" },
+  { en: "He filled the earth with light.", ar: "ملأ الأرض نورا" }
+];
+
+export const CAUSATIVE_QUESTIONS = [
+  { active: "خَرَجَ", meaning: "he went out → he sent out", ar: "أَخْرَجَ" },
+  { active: "نَزَلَ", meaning: "he descended → he sent down", ar: "أَنْزَلَ" },
+  { active: "حَيِيَ", meaning: "he lived → he gave life", ar: "أَحْيَا" },
+  { active: "عَلِمَ", meaning: "he knew → he taught", ar: "عَلَّمَ" },
+  { active: "كَسَرَ", meaning: "he broke → he smashed", ar: "كَسَّرَ" },
+  { active: "نَزَلَ", meaning: "he descended → he sent down (gradually)", ar: "نَزَّلَ" }
+];
+
+export const MUTUAL_REFLEXIVE_QUESTIONS = [
+  { active: "عَلَّمَ", meaning: "he taught → he learned", ar: "تَعَلَّمَ" },
+  { active: "كَسَّرَ", meaning: "he smashed → it got smashed", ar: "تَكَسَّرَ" },
+  { active: "نَزَّلَ", meaning: "he sent down gradually → it descended gradually", ar: "تَنَزَّلَ" },
+  { active: "قَاتَلَ", meaning: "he fought → they fought each other", ar: "تَقَاتَلَ" },
+  { active: "جَادَلَ", meaning: "he argued → they argued with each other", ar: "تَجَادَلَ" },
+  { active: "عَامَلَ", meaning: "he dealt with → they dealt with each other", ar: "تَعَامَلَ" }
+];
+
+export const SEEKING_INTRANSITIVE_QUESTIONS = [
+  { en: "it broke (by itself)", ar: "انكسر" },
+  { en: "it opened (by itself)", ar: "انفتح" },
+  { en: "it closed (by itself)", ar: "انغلق" },
+  { en: "he sought forgiveness", ar: "استغفر" },
+  { en: "he sought help", ar: "استعان" },
+  { en: "he sought guidance (through prayer)", ar: "استخار" }
+];
+
+export const EMPHASIS_TRANSLATION_QUESTIONS = [
+  { en: "You alone we worship", ar: "إياك نعبد" },
+  { en: "To Allah belongs all praise", ar: "لله الحمد" },
+  { en: "You alone we ask for help", ar: "إياك نستعين" },
+  { en: "To You belongs the dominion", ar: "لك الملك" },
+  { en: "To Him belongs the command", ar: "له الأمر" },
+  { en: "Upon Him I have relied", ar: "عليه توكلت" },
+  { en: "In His hand is all good", ar: "بيده الخير" },
+  { en: "To Him belongs all praise", ar: "له الحمد" }
+];
+
 export const TRANSLATION_1_QUESTIONS = [
   { ar: "لِمَاذَا يَسْكُنُ هَذَا الرَّجُلُ فِي هَذِهِ الْقَرْيَةِ فَقَطْ؟", en: "Why does this man live only in this village?" },
   { ar: "هَذِهِ الْعِبَادَةُ لِهَذِهِ الْأَصْنَامِ فَقَطْ.", en: "This worship is for these idols only." },
